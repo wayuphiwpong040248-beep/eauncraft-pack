@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-17T18:11:27.529Z",
+  "updatedAt": "2026-11-17T19:47:05.502Z",
   "branding": {
     "title": "E'AunCraft",
     "background": {
@@ -10,15 +10,20 @@
   },
   "news": [
     {
-      "title": "ยินดีต้อนรับสู่ E'AunCraft!",
+      "title": "วิธีใช้งาน E'AunCraft Launcher",
       "date": "18/11/2569",
       "pinned": true,
-      "body": "เปิด Radmin VPN ก่อนเข้าเกมทุกครั้ง\nถ้ามีอัปเดต ปุ่มจะเปลี่ยนเป็น “อัปเดต” กดแล้วรอหมูวิ่งจนสุดหลอดได้เลย"
+      "body": "ก่อนเริ่ม: ติดตั้ง TLauncher + ล็อกอินบัญชีไว้ และติดตั้ง Radmin VPN เข้าเน็ตเวิร์กเดียวกับคนเปิดเซิร์ฟ\n\n1) กด “ติดตั้ง” (ปุ่มใหญ่ขวาล่าง) รอหมูวิ่งจนสุดหลอด — เกมเวอร์ชัน EaunCraft พร้อมมอดทั้งหมดจะลงที่ %APPDATA%\\.minecraft\\versions\\EaunCraft\n2) เปิด TLauncher เลือกเวอร์ชัน “EaunCraft” แล้วกดเล่น 1 ครั้ง (ให้ TLauncher โหลดไฟล์เกม + Java ให้ครบ) แล้วปิดเกม\n3) กด “ตั้ง Shortcut” (บังคับ) จะมีหน้าต่างดำขึ้นมา ทำตามขั้นตอนในนั้น (IP ใส่ให้อัตโนมัติ) เสร็จแล้วกด Enter ปิด — บนเดสก์ท็อปจะมี “EaunCraft (Shortcut)”\n4) กด “เริ่มเกม” — เกมจะเปิดและเข้าเซิร์ฟให้เอง (มอดเยอะ อาจใช้ 1–2 นาที)\n\nครั้งต่อไป: เปิด Radmin VPN แล้วกด “เริ่มเกม” ได้เลย\nถ้ามีอัปเดต ปุ่มจะเปลี่ยนเป็น “อัปเดต” กดแล้วรอจนเสร็จ\nปุ่ม “ตั้ง Shortcut” กดซ้ำได้ทุกเมื่อ ถ้าทางลัดหายหรือเสีย"
+    },
+    {
+      "title": "ยินดีต้อนรับสู่ E'AunCraft!",
+      "date": "18/11/2569",
+      "body": "เปิด Radmin VPN ก่อนเข้าเกมทุกครั้ง\nถ้าเข้าเซิร์ฟไม่ได้ ให้เช็กว่าแอดมินเปิดเซิร์ฟอยู่ (ไฟเขียวที่การ์ดเซิร์ฟ)"
     }
   ],
   "launcher": {
-    "latestVersion": "1.0.0",
-    "sha1": "27d48dc69d7201a87b1b1e8a4e45907096391c75",
+    "latestVersion": "1.1.0",
+    "sha1": "8a6aa8f98e7bb64455d513f0b8690c6100c044c6",
     "downloadUrl": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/launcher/EAunCraft-Setup.exe"
   },
   "servers": [
@@ -32,7 +37,7 @@
         "type": "neoforge",
         "version": "21.1.266"
       },
-      "packVersion": "2026.11.18-1",
+      "packVersion": "2026.11.18-2",
       "enforceDirs": [
         "mods"
       ],
@@ -381,137 +386,67 @@
           "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/5d06a5850af7c577612d4592706a8e156bbe1cbf"
         },
         {
-          "path": "resourcepacks/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
-          "sha1": "7049cc12935ff4be20173c908ad946f530861a4c",
-          "size": 321871,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/7049cc12935ff4be20173c908ad946f530861a4c"
+          "path": "EaunCraft.json",
+          "sha1": "b729db5b9c07271846ec21914fd0fbbb2d08fdd1",
+          "size": 68105,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b729db5b9c07271846ec21914fd0fbbb2d08fdd1"
         },
         {
-          "path": "resourcepacks/Alittle_Axolotl.zip",
-          "sha1": "91f6d4cfbf7e00460b91981e7494cb9a0da9fe21",
-          "size": 110844,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/91f6d4cfbf7e00460b91981e7494cb9a0da9fe21"
+          "path": "EaunCraft.jar",
+          "sha1": "30c73b1c5da787909b2f73340419fdf13b9def88",
+          "size": 26836906,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/30c73b1c5da787909b2f73340419fdf13b9def88"
         },
         {
-          "path": "resourcepacks/Crops-3D_MC1.19_v1.2.0.zip",
-          "sha1": "98a55eed3fae61aad12807c023907ccbf4a568f3",
-          "size": 525930,
+          "path": "TLauncherAdditional.json",
+          "sha1": "2383575b7f13c242d5bc3f81598b3f75c48995c5",
+          "size": 13185,
           "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/98a55eed3fae61aad12807c023907ccbf4a568f3"
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2383575b7f13c242d5bc3f81598b3f75c48995c5"
         },
         {
-          "path": "resourcepacks/DetailedAnimationsReworked - V1.15.zip",
-          "sha1": "1d0ac0d5d7514a3df02de06a598ae95697339a21",
-          "size": 116175,
+          "path": "natives/glfw.dll",
+          "sha1": "2e19147110b9872a52814956bab151a7aa80ce58",
+          "size": 496128,
           "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/1d0ac0d5d7514a3df02de06a598ae95697339a21"
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2e19147110b9872a52814956bab151a7aa80ce58"
         },
         {
-          "path": "resourcepacks/Fancy Crops v1.3.zip",
-          "sha1": "788e5169eb064b696b2e20d4c5d998cceb387a2e",
-          "size": 92779,
+          "path": "natives/jemalloc.dll",
+          "sha1": "6403f8243ea983a225b3bcda6c821a0029ad9ee2",
+          "size": 398336,
           "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/788e5169eb064b696b2e20d4c5d998cceb387a2e"
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6403f8243ea983a225b3bcda6c821a0029ad9ee2"
         },
         {
-          "path": "resourcepacks/Fancy_Beds-v4.2.zip",
-          "sha1": "40e5ffd45f5c2865ef86760b137ea308ff1a7203",
-          "size": 271419,
+          "path": "natives/lwjgl.dll",
+          "sha1": "2bf57942dff5360889f0e89c58d5acdc54e5f1ea",
+          "size": 479232,
           "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/40e5ffd45f5c2865ef86760b137ea308ff1a7203"
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2bf57942dff5360889f0e89c58d5acdc54e5f1ea"
         },
         {
-          "path": "resourcepacks/Fantasy_Ores_v9.zip",
-          "sha1": "19caa109fd6d66f59c313dfe0932be3db92228b2",
-          "size": 73743,
+          "path": "natives/lwjgl_opengl.dll",
+          "sha1": "dc0249933f6fc2c0dafa53a3b710056597c8ee19",
+          "size": 364032,
           "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/19caa109fd6d66f59c313dfe0932be3db92228b2"
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/dc0249933f6fc2c0dafa53a3b710056597c8ee19"
         },
         {
-          "path": "resourcepacks/Fat Cat.zip",
-          "sha1": "b411fe960a1bc12e9f753955bceb545e0e0d1f68",
-          "size": 17804,
+          "path": "natives/lwjgl_stb.dll",
+          "sha1": "af3b372e2b366c5e681cd3b0640fd9fc41e0a265",
+          "size": 510464,
           "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b411fe960a1bc12e9f753955bceb545e0e0d1f68"
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/af3b372e2b366c5e681cd3b0640fd9fc41e0a265"
         },
         {
-          "path": "resourcepacks/FreshAnimations_v1.11.2_1.20+.zip",
-          "sha1": "c0f564f3b9c12762923015eefad53edbdbbd3d96",
-          "size": 742790,
+          "path": "natives/OpenAL.dll",
+          "sha1": "96014cec517f2c55a0329a71cd99e68cab7d3242",
+          "size": 1338368,
           "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/c0f564f3b9c12762923015eefad53edbdbbd3d96"
-        },
-        {
-          "path": "resourcepacks/HumanEraVillagersIllagers[3.91.5].zip",
-          "sha1": "6a6a07d4328fc7c413b63f0e73d33086d9b9cef7",
-          "size": 10630345,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6a6a07d4328fc7c413b63f0e73d33086d9b9cef7"
-        },
-        {
-          "path": "resourcepacks/little squids 3.0a.zip",
-          "sha1": "86a9086f4a9482de708fd12abfe7e6afbc608e69",
-          "size": 34043,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/86a9086f4a9482de708fd12abfe7e6afbc608e69"
-        },
-        {
-          "path": "resourcepacks/Simple Grass Flowers v2.0.0.zip",
-          "sha1": "afb56cfc90e663526352f7bd75a3c733178fca45",
-          "size": 208597,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/afb56cfc90e663526352f7bd75a3c733178fca45"
-        },
-        {
-          "path": "resourcepacks/Stay True 1.21.5.zip",
-          "sha1": "b752181fa17cf99a67bc46a2c1569be621021493",
-          "size": 2252799,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b752181fa17cf99a67bc46a2c1569be621021493"
-        },
-        {
-          "path": "resourcepacks/§6Immersive§8_§6Interfaces§8.zip",
-          "sha1": "176aa5cf21d2c6b6a24d11cf0e74aed4c4ca9621",
-          "size": 1197001,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/176aa5cf21d2c6b6a24d11cf0e74aed4c4ca9621"
-        },
-        {
-          "path": "resourcepacks/§eExtended_Illumina_1.21x.zip",
-          "sha1": "b085c0fc09aa3af013c9e28010bf684fbea62655",
-          "size": 5071,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b085c0fc09aa3af013c9e28010bf684fbea62655"
-        },
-        {
-          "path": "shaderpacks/BSL_v10.1.1.zip",
-          "sha1": "4f4e8121e2fdee8d5708aaee138ddcf127e86df0",
-          "size": 1119197,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/4f4e8121e2fdee8d5708aaee138ddcf127e86df0"
-        },
-        {
-          "path": "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
-          "sha1": "2ee08300e1d6f039e63eae8484dddf57b3aaaf67",
-          "size": 553400,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2ee08300e1d6f039e63eae8484dddf57b3aaaf67"
-        },
-        {
-          "path": "shaderpacks/iterationT 3.2.0.zip",
-          "sha1": "ddadd31e7c59cedadc1e704e5f83c872cb3d5e37",
-          "size": 42846966,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/ddadd31e7c59cedadc1e704e5f83c872cb3d5e37"
-        },
-        {
-          "path": "shaderpacks/Kappa_v5.3.zip",
-          "sha1": "620388c59df919fc29f8762268942f4871c2fb55",
-          "size": 3872527,
-          "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/620388c59df919fc29f8762268942f4871c2fb55"
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/96014cec517f2c55a0329a71cd99e68cab7d3242"
         },
         {
           "path": "config/appleskin-client.toml",
@@ -627,10 +562,10 @@
         },
         {
           "path": "config/bettervillage_1.properties",
-          "sha1": "6f3b93dd5888bcacd02ec79ce1f6f78eceddf067",
+          "sha1": "c484d3b211390c1545543470a9e43bc45a75aeed",
           "size": 270,
           "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6f3b93dd5888bcacd02ec79ce1f6f78eceddf067"
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/c484d3b211390c1545543470a9e43bc45a75aeed"
         },
         {
           "path": "config/betterzoom-client.toml",
@@ -893,10 +828,10 @@
         },
         {
           "path": "config/iris.properties",
-          "sha1": "cc27a1bd3bd5d7aaad5c0bdbccc22c57906f3518",
+          "sha1": "6ac39e7bf407a12ca34d82307f3421ebf1a38f08",
           "size": 312,
           "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/cc27a1bd3bd5d7aaad5c0bdbccc22c57906f3518"
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6ac39e7bf407a12ca34d82307f3421ebf1a38f08"
         },
         {
           "path": "config/jei/blacklist.json",
@@ -1019,10 +954,10 @@
         },
         {
           "path": "config/libraryferret_1.properties",
-          "sha1": "7dace50d34e34179c22151934013689c3d270b20",
+          "sha1": "68a3276b585c8a5549251d104d57dc8b0e6d16fc",
           "size": 193,
           "mode": "managed",
-          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/7dace50d34e34179c22151934013689c3d270b20"
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/68a3276b585c8a5549251d104d57dc8b0e6d16fc"
         },
         {
           "path": "config/mezz_config/client/default/settings.ini",
@@ -1249,11 +1184,165 @@
           "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/60d91ce4a841adec05a702c51dc76461cebba587"
         },
         {
+          "path": "resourcepacks/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+          "sha1": "7049cc12935ff4be20173c908ad946f530861a4c",
+          "size": 321871,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/7049cc12935ff4be20173c908ad946f530861a4c"
+        },
+        {
+          "path": "resourcepacks/Alittle_Axolotl.zip",
+          "sha1": "91f6d4cfbf7e00460b91981e7494cb9a0da9fe21",
+          "size": 110844,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/91f6d4cfbf7e00460b91981e7494cb9a0da9fe21"
+        },
+        {
+          "path": "resourcepacks/Crops-3D_MC1.19_v1.2.0.zip",
+          "sha1": "98a55eed3fae61aad12807c023907ccbf4a568f3",
+          "size": 525930,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/98a55eed3fae61aad12807c023907ccbf4a568f3"
+        },
+        {
+          "path": "resourcepacks/DetailedAnimationsReworked - V1.15.zip",
+          "sha1": "1d0ac0d5d7514a3df02de06a598ae95697339a21",
+          "size": 116175,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/1d0ac0d5d7514a3df02de06a598ae95697339a21"
+        },
+        {
+          "path": "resourcepacks/Fancy Crops v1.3.zip",
+          "sha1": "788e5169eb064b696b2e20d4c5d998cceb387a2e",
+          "size": 92779,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/788e5169eb064b696b2e20d4c5d998cceb387a2e"
+        },
+        {
+          "path": "resourcepacks/Fancy_Beds-v4.2.zip",
+          "sha1": "40e5ffd45f5c2865ef86760b137ea308ff1a7203",
+          "size": 271419,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/40e5ffd45f5c2865ef86760b137ea308ff1a7203"
+        },
+        {
+          "path": "resourcepacks/Fantasy_Ores_v9.zip",
+          "sha1": "19caa109fd6d66f59c313dfe0932be3db92228b2",
+          "size": 73743,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/19caa109fd6d66f59c313dfe0932be3db92228b2"
+        },
+        {
+          "path": "resourcepacks/Fat Cat.zip",
+          "sha1": "b411fe960a1bc12e9f753955bceb545e0e0d1f68",
+          "size": 17804,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b411fe960a1bc12e9f753955bceb545e0e0d1f68"
+        },
+        {
+          "path": "resourcepacks/FreshAnimations_v1.11.2_1.20+.zip",
+          "sha1": "c0f564f3b9c12762923015eefad53edbdbbd3d96",
+          "size": 742790,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/c0f564f3b9c12762923015eefad53edbdbbd3d96"
+        },
+        {
+          "path": "resourcepacks/HumanEraVillagersIllagers[3.91.5].zip",
+          "sha1": "6a6a07d4328fc7c413b63f0e73d33086d9b9cef7",
+          "size": 10630345,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6a6a07d4328fc7c413b63f0e73d33086d9b9cef7"
+        },
+        {
+          "path": "resourcepacks/little squids 3.0a.zip",
+          "sha1": "86a9086f4a9482de708fd12abfe7e6afbc608e69",
+          "size": 34043,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/86a9086f4a9482de708fd12abfe7e6afbc608e69"
+        },
+        {
+          "path": "resourcepacks/Simple Grass Flowers v2.0.0.zip",
+          "sha1": "afb56cfc90e663526352f7bd75a3c733178fca45",
+          "size": 208597,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/afb56cfc90e663526352f7bd75a3c733178fca45"
+        },
+        {
+          "path": "resourcepacks/Stay True 1.21.5.zip",
+          "sha1": "b752181fa17cf99a67bc46a2c1569be621021493",
+          "size": 2252799,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b752181fa17cf99a67bc46a2c1569be621021493"
+        },
+        {
+          "path": "resourcepacks/§6Immersive§8_§6Interfaces§8.zip",
+          "sha1": "176aa5cf21d2c6b6a24d11cf0e74aed4c4ca9621",
+          "size": 1197001,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/176aa5cf21d2c6b6a24d11cf0e74aed4c4ca9621"
+        },
+        {
+          "path": "resourcepacks/§eExtended_Illumina_1.21x.zip",
+          "sha1": "b085c0fc09aa3af013c9e28010bf684fbea62655",
+          "size": 5071,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b085c0fc09aa3af013c9e28010bf684fbea62655"
+        },
+        {
+          "path": "shaderpacks/BSL_v10.1.1.zip",
+          "sha1": "4f4e8121e2fdee8d5708aaee138ddcf127e86df0",
+          "size": 1119197,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/4f4e8121e2fdee8d5708aaee138ddcf127e86df0"
+        },
+        {
+          "path": "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
+          "sha1": "2ee08300e1d6f039e63eae8484dddf57b3aaaf67",
+          "size": 553400,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2ee08300e1d6f039e63eae8484dddf57b3aaaf67"
+        },
+        {
+          "path": "shaderpacks/iterationT 3.2.0.zip",
+          "sha1": "ddadd31e7c59cedadc1e704e5f83c872cb3d5e37",
+          "size": 42846966,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/ddadd31e7c59cedadc1e704e5f83c872cb3d5e37"
+        },
+        {
+          "path": "shaderpacks/Kappa_v5.3.zip",
+          "sha1": "620388c59df919fc29f8762268942f4871c2fb55",
+          "size": 3872527,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/620388c59df919fc29f8762268942f4871c2fb55"
+        },
+        {
+          "path": "CustomSkinLoader/Core/CustomSkinLoader-Common.jar",
+          "sha1": "8fcd495699e6e1a0ea804d10b1bc2ac3d06d480c",
+          "size": 125002,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/8fcd495699e6e1a0ea804d10b1bc2ac3d06d480c"
+        },
+        {
+          "path": "CustomSkinLoader/CustomSkinLoader.json",
+          "sha1": "6d1a3a73953331d9722db9755439062cb9cbf8fb",
+          "size": 1974,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6d1a3a73953331d9722db9755439062cb9cbf8fb"
+        },
+        {
           "path": "options.txt",
           "sha1": "21da82c541ab154775078eab523c1d0712e1a513",
           "size": 9704,
           "mode": "once",
           "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/21da82c541ab154775078eab523c1d0712e1a513"
+        },
+        {
+          "path": "optionsshaders.txt",
+          "sha1": "6bb717ff2c33db2ed5394bc81b7e454258996564",
+          "size": 62,
+          "mode": "once",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6bb717ff2c33db2ed5394bc81b7e454258996564"
         }
       ]
     }
