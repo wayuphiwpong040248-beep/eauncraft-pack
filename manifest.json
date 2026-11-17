@@ -1,0 +1,1261 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-11-17T18:11:27.529Z",
+  "branding": {
+    "title": "E'AunCraft",
+    "background": {
+      "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/bg-b51a663396e9e6e14787e7194b0768549f3a821c.jpg",
+      "sha1": "b51a663396e9e6e14787e7194b0768549f3a821c"
+    }
+  },
+  "news": [
+    {
+      "title": "ยินดีต้อนรับสู่ E'AunCraft!",
+      "date": "18/11/2569",
+      "pinned": true,
+      "body": "เปิด Radmin VPN ก่อนเข้าเกมทุกครั้ง\nถ้ามีอัปเดต ปุ่มจะเปลี่ยนเป็น “อัปเดต” กดแล้วรอหมูวิ่งจนสุดหลอดได้เลย"
+    }
+  ],
+  "launcher": {
+    "latestVersion": "1.0.0",
+    "sha1": "27d48dc69d7201a87b1b1e8a4e45907096391c75",
+    "downloadUrl": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/launcher/EAunCraft-Setup.exe"
+  },
+  "servers": [
+    {
+      "id": "main",
+      "name": "E'AunCraft",
+      "address": "26.196.152.252",
+      "port": 25565,
+      "minecraft": "1.21.1",
+      "loader": {
+        "type": "neoforge",
+        "version": "21.1.266"
+      },
+      "packVersion": "2026.11.18-1",
+      "enforceDirs": [
+        "mods"
+      ],
+      "files": [
+        {
+          "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar",
+          "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
+          "size": 75804,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/81cf0e668f991f83ac8820c386fbd6c9c3602246"
+        },
+        {
+          "path": "mods/architectury-13.0.11-neoforge.jar",
+          "sha1": "008656a0702801174b8ec245ed7aad1921d6e9f1",
+          "size": 584734,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/008656a0702801174b8ec245ed7aad1921d6e9f1"
+        },
+        {
+          "path": "mods/architectury-13.0.12-neoforge.jar",
+          "sha1": "646dace27624ac08ad8d229fe15f6601a8b7fbb2",
+          "size": 584731,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/646dace27624ac08ad8d229fe15f6601a8b7fbb2"
+        },
+        {
+          "path": "mods/balm-neoforge-1.21.1-21.0.67.jar",
+          "sha1": "68c95ca8a6a87d26199d43ff6978bc94949329e3",
+          "size": 786010,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/68c95ca8a6a87d26199d43ff6978bc94949329e3"
+        },
+        {
+          "path": "mods/bettercombat-neoforge-2.4.0+1.21.1.jar",
+          "sha1": "bacbc8c86671663e9998b141c5732250c1f4d4fb",
+          "size": 1045389,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/bacbc8c86671663e9998b141c5732250c1f4d4fb"
+        },
+        {
+          "path": "mods/bettervillage-neoforge-1.21.1-3.3.1.jar",
+          "sha1": "6ad2a37bfea056ce924c62fea6e0a583723e7f4c",
+          "size": 2429559,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6ad2a37bfea056ce924c62fea6e0a583723e7f4c"
+        },
+        {
+          "path": "mods/betterzoom-neoforge-1.21.1-3.1.1.jar",
+          "sha1": "4bb208a98ef0dbe32b406b8ecf5c1c3afa157a95",
+          "size": 126001,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/4bb208a98ef0dbe32b406b8ecf5c1c3afa157a95"
+        },
+        {
+          "path": "mods/carryon-neoforge-1.21.1-2.2.6.13.jar",
+          "sha1": "2ceb0d9284525b6cb2a214c88cf6511cab91f601",
+          "size": 361486,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2ceb0d9284525b6cb2a214c88cf6511cab91f601"
+        },
+        {
+          "path": "mods/cinematiccataclysm-1.0.1-1.21.1.jar",
+          "sha1": "5f9db3880861bbda3d22c98d130fad24924c2bac",
+          "size": 70727,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/5f9db3880861bbda3d22c98d130fad24924c2bac"
+        },
+        {
+          "path": "mods/cloth-config-15.0.140-neoforge.jar",
+          "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2",
+          "size": 1163890,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/c3e5733ba4503b102589a026000fd5ce0212f6f2"
+        },
+        {
+          "path": "mods/corpse-neoforge-1.21.1-1.1.22.jar",
+          "sha1": "0d73e082e4d5c0f185aa8030bcefb68c259d1107",
+          "size": 256780,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/0d73e082e4d5c0f185aa8030bcefb68c259d1107"
+        },
+        {
+          "path": "mods/cristellib-neoforge-1.21.1-3.1.7.jar",
+          "sha1": "d250804b7ecea365bc736ec36ec6fc3f933917f1",
+          "size": 583525,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/d250804b7ecea365bc736ec36ec6fc3f933917f1"
+        },
+        {
+          "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
+          "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4",
+          "size": 410690,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4"
+        },
+        {
+          "path": "mods/CustomSkinLoader_Universal-15.1.jar",
+          "sha1": "324e6921ecd576e44875981466e7f22170b6541a",
+          "size": 222917,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/324e6921ecd576e44875981466e7f22170b6541a"
+        },
+        {
+          "path": "mods/deeperdarker-neoforge-1.21.1-1.4.1.jar",
+          "sha1": "b6094adde68bd4b909bc75c64901e1f3fb99ad8f",
+          "size": 3906057,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b6094adde68bd4b909bc75c64901e1f3fb99ad8f"
+        },
+        {
+          "path": "mods/default_skill_trees-1.1.jar",
+          "sha1": "564a1320a4d26de1ad476687ce1920ccd12c142c",
+          "size": 11519,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/564a1320a4d26de1ad476687ce1920ccd12c142c"
+        },
+        {
+          "path": "mods/dungeons-and-taverns-v4.4.4.jar",
+          "sha1": "249a5bdd0e8622b8a11f88758e6f5fd5fda036a3",
+          "size": 24859622,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/249a5bdd0e8622b8a11f88758e6f5fd5fda036a3"
+        },
+        {
+          "path": "mods/DungeonsArise-1.21.1-2.1.68-release.jar",
+          "sha1": "c651339154da7b9e9cf47a80fdef22c4d59cad5c",
+          "size": 11842679,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/c651339154da7b9e9cf47a80fdef22c4d59cad5c"
+        },
+        {
+          "path": "mods/FallingTree-1.21.1-1.21.1.11.jar",
+          "sha1": "7e1b3ee0ba89b556d5a468797bb1b5f4e2b8ccb7",
+          "size": 496356,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/7e1b3ee0ba89b556d5a468797bb1b5f4e2b8ccb7"
+        },
+        {
+          "path": "mods/fdlib-1.0.9-1.21.1.jar",
+          "sha1": "03a171d170b22a04e67d2cc7894ddddd8489a295",
+          "size": 973335,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/03a171d170b22a04e67d2cc7894ddddd8489a295"
+        },
+        {
+          "path": "mods/fzzy_config-0.7.7+fix1+1.21+neoforge.jar",
+          "sha1": "aa04a2ddbce2f50b21d667d2f3e589f9e043e472",
+          "size": 2392720,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/aa04a2ddbce2f50b21d667d2f3e589f9e043e472"
+        },
+        {
+          "path": "mods/guardvillagers-2.4.12-1.21.1.jar",
+          "sha1": "a817f2263e93aad5bdbe65eeafd2f27489b47ccf",
+          "size": 283407,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/a817f2263e93aad5bdbe65eeafd2f27489b47ccf"
+        },
+        {
+          "path": "mods/iris-neoforge-1.8.12+mc1.21.1.jar",
+          "sha1": "a3e6355915c7d3b2bc392724795113e51d289378",
+          "size": 2438548,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/a3e6355915c7d3b2bc392724795113e51d289378"
+        },
+        {
+          "path": "mods/jei-1.21.1-neoforge-19.64.0.455.jar",
+          "sha1": "f6d6fc08d54c40752926b570a2220471e8c45c1a",
+          "size": 2375741,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/f6d6fc08d54c40752926b570a2220471e8c45c1a"
+        },
+        {
+          "path": "mods/journeymap-neoforge-1.21.1-6.0.9.jar",
+          "sha1": "3a5c86e620a7d5aa53b6e42ca4a1577bbba1d332",
+          "size": 4320499,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/3a5c86e620a7d5aa53b6e42ca4a1577bbba1d332"
+        },
+        {
+          "path": "mods/knavesneeds-neoforge-1.21.1-3.1.0-beta.1.jar",
+          "sha1": "adab1039fb4bede7ce92a663affa277f1b3d083a",
+          "size": 1414598,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/adab1039fb4bede7ce92a663affa277f1b3d083a"
+        },
+        {
+          "path": "mods/kotlinforforge-5.12.0-all.jar",
+          "sha1": "d10d062caf1aad9aec82d7852f2fee1781735c1f",
+          "size": 7279264,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/d10d062caf1aad9aec82d7852f2fee1781735c1f"
+        },
+        {
+          "path": "mods/libraryferret-neoforge-1.21.1-4.0.0.jar",
+          "sha1": "9f750661168a599bdd7b2928e6588768d6105bfe",
+          "size": 139464,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/9f750661168a599bdd7b2928e6588768d6105bfe"
+        },
+        {
+          "path": "mods/lionfishapi-3.1.jar",
+          "sha1": "353ca00ed118eb67cf11085abbbd699884722326",
+          "size": 91596,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/353ca00ed118eb67cf11085abbbd699884722326"
+        },
+        {
+          "path": "mods/L_Ender_s Cataclysm 1.21.1-3.33.jar",
+          "sha1": "f0310277167c82fd16a5c2bab220b5c5c262f133",
+          "size": 73375667,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/f0310277167c82fd16a5c2bab220b5c5c262f133"
+        },
+        {
+          "path": "mods/mezz_config-1.21.1-neoforge-0.7.1-standalone.jar",
+          "sha1": "2382e29c9a0f44d4f4b9baa4cb3f6a356e048e60",
+          "size": 347249,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2382e29c9a0f44d4f4b9baa4cb3f6a356e048e60"
+        },
+        {
+          "path": "mods/Nullscape_1.21.x_v1.2.14.jar",
+          "sha1": "ae8e1cbd5de6cf6f450bb44cd69cd284dad690dd",
+          "size": 355748,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/ae8e1cbd5de6cf6f450bb44cd69cd284dad690dd"
+        },
+        {
+          "path": "mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
+          "sha1": "05be8ddcc78532b9a5520c718edc6c971cd0057c",
+          "size": 203149,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/05be8ddcc78532b9a5520c718edc6c971cd0057c"
+        },
+        {
+          "path": "mods/puffish_attributes-0.8.3-1.21-neoforge.jar",
+          "sha1": "9e6a87f790fc9281ea2685f8d4f6435d0d7c6d1f",
+          "size": 235542,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/9e6a87f790fc9281ea2685f8d4f6435d0d7c6d1f"
+        },
+        {
+          "path": "mods/puffish_skills-0.19.2-1.21-neoforge.jar",
+          "sha1": "e7439fa56036bfacf228269b8b89f10cbbba13fd",
+          "size": 652840,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/e7439fa56036bfacf228269b8b89f10cbbba13fd"
+        },
+        {
+          "path": "mods/simplyswords-neoforge-1.70.2-1.21.1.jar",
+          "sha1": "05b074ff774467f1fe9fb5592151b7845c321cbc",
+          "size": 16282660,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/05b074ff774467f1fe9fb5592151b7845c321cbc"
+        },
+        {
+          "path": "mods/SimplyTooltips-neoforge-0.1.5.jar",
+          "sha1": "6227453d5b628b1009d6ec516a0da5b588849744",
+          "size": 5512986,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6227453d5b628b1009d6ec516a0da5b588849744"
+        },
+        {
+          "path": "mods/sodium-neoforge-0.6.13+mc1.21.1.jar",
+          "sha1": "38af70fa4dc4b2aaac636e92fdba3bedd5a025e1",
+          "size": 1162994,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/38af70fa4dc4b2aaac636e92fdba3bedd5a025e1"
+        },
+        {
+          "path": "mods/sophisticatedbackpacks-1.21.1-3.26.21.2249.jar",
+          "sha1": "940e93e9eaaf7db50c308c2a849a471830f6c1ea",
+          "size": 1265683,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/940e93e9eaaf7db50c308c2a849a471830f6c1ea"
+        },
+        {
+          "path": "mods/sophisticatedcore-1.21.1-1.5.33.2470.jar",
+          "sha1": "93446251b8ab6f2d4b61aab8ab6a501cd3704094",
+          "size": 1845993,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/93446251b8ab6f2d4b61aab8ab6a501cd3704094"
+        },
+        {
+          "path": "mods/sophisticatedcore-1.21.1-1.5.35.2473.jar",
+          "sha1": "6e480fff57d27aa20a9c3488419422ac707a5f14",
+          "size": 1854505,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6e480fff57d27aa20a9c3488419422ac707a5f14"
+        },
+        {
+          "path": "mods/travelersbackpack-neoforge-1.21.1-10.1.41.jar",
+          "sha1": "a7f629c076aa02badd255ac15e5ebd2eef5717a2",
+          "size": 1444892,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/a7f629c076aa02badd255ac15e5ebd2eef5717a2"
+        },
+        {
+          "path": "mods/twilightforest-1.21.1-4.8.3345-universal.jar",
+          "sha1": "9cfd4154928433e2f1f6cfc3deb48c284debb580",
+          "size": 27154121,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/9cfd4154928433e2f1f6cfc3deb48c284debb580"
+        },
+        {
+          "path": "mods/t_and_t-fabric-neoforge-1.13.11.jar",
+          "sha1": "8f00e36a11568c0b66bbdf5c0e9ee492e511b303",
+          "size": 3553006,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/8f00e36a11568c0b66bbdf5c0e9ee492e511b303"
+        },
+        {
+          "path": "mods/waystones-neoforge-1.21.1-21.1.46.jar",
+          "sha1": "75718161662d9ec957ba22e10e497788ec1687ba",
+          "size": 1223229,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/75718161662d9ec957ba22e10e497788ec1687ba"
+        },
+        {
+          "path": "mods/weaponmaster_ydm-1.21.1-neoforge-4.2.7.jar",
+          "sha1": "4cfceaf50678186c8c8de2eedc1f47f46a624782",
+          "size": 344392,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/4cfceaf50678186c8c8de2eedc1f47f46a624782"
+        },
+        {
+          "path": "mods/YungsApi-1.21.1-NeoForge-5.1.9.jar",
+          "sha1": "2c4b740c8ad27bbcb2a21b85b64f011b809aed91",
+          "size": 413763,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2c4b740c8ad27bbcb2a21b85b64f011b809aed91"
+        },
+        {
+          "path": "mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+          "sha1": "4061ece2141475227646649046fc14c2da505922",
+          "size": 609639,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/4061ece2141475227646649046fc14c2da505922"
+        },
+        {
+          "path": "mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+          "sha1": "5d06a5850af7c577612d4592706a8e156bbe1cbf",
+          "size": 461244,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/5d06a5850af7c577612d4592706a8e156bbe1cbf"
+        },
+        {
+          "path": "resourcepacks/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+          "sha1": "7049cc12935ff4be20173c908ad946f530861a4c",
+          "size": 321871,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/7049cc12935ff4be20173c908ad946f530861a4c"
+        },
+        {
+          "path": "resourcepacks/Alittle_Axolotl.zip",
+          "sha1": "91f6d4cfbf7e00460b91981e7494cb9a0da9fe21",
+          "size": 110844,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/91f6d4cfbf7e00460b91981e7494cb9a0da9fe21"
+        },
+        {
+          "path": "resourcepacks/Crops-3D_MC1.19_v1.2.0.zip",
+          "sha1": "98a55eed3fae61aad12807c023907ccbf4a568f3",
+          "size": 525930,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/98a55eed3fae61aad12807c023907ccbf4a568f3"
+        },
+        {
+          "path": "resourcepacks/DetailedAnimationsReworked - V1.15.zip",
+          "sha1": "1d0ac0d5d7514a3df02de06a598ae95697339a21",
+          "size": 116175,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/1d0ac0d5d7514a3df02de06a598ae95697339a21"
+        },
+        {
+          "path": "resourcepacks/Fancy Crops v1.3.zip",
+          "sha1": "788e5169eb064b696b2e20d4c5d998cceb387a2e",
+          "size": 92779,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/788e5169eb064b696b2e20d4c5d998cceb387a2e"
+        },
+        {
+          "path": "resourcepacks/Fancy_Beds-v4.2.zip",
+          "sha1": "40e5ffd45f5c2865ef86760b137ea308ff1a7203",
+          "size": 271419,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/40e5ffd45f5c2865ef86760b137ea308ff1a7203"
+        },
+        {
+          "path": "resourcepacks/Fantasy_Ores_v9.zip",
+          "sha1": "19caa109fd6d66f59c313dfe0932be3db92228b2",
+          "size": 73743,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/19caa109fd6d66f59c313dfe0932be3db92228b2"
+        },
+        {
+          "path": "resourcepacks/Fat Cat.zip",
+          "sha1": "b411fe960a1bc12e9f753955bceb545e0e0d1f68",
+          "size": 17804,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b411fe960a1bc12e9f753955bceb545e0e0d1f68"
+        },
+        {
+          "path": "resourcepacks/FreshAnimations_v1.11.2_1.20+.zip",
+          "sha1": "c0f564f3b9c12762923015eefad53edbdbbd3d96",
+          "size": 742790,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/c0f564f3b9c12762923015eefad53edbdbbd3d96"
+        },
+        {
+          "path": "resourcepacks/HumanEraVillagersIllagers[3.91.5].zip",
+          "sha1": "6a6a07d4328fc7c413b63f0e73d33086d9b9cef7",
+          "size": 10630345,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6a6a07d4328fc7c413b63f0e73d33086d9b9cef7"
+        },
+        {
+          "path": "resourcepacks/little squids 3.0a.zip",
+          "sha1": "86a9086f4a9482de708fd12abfe7e6afbc608e69",
+          "size": 34043,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/86a9086f4a9482de708fd12abfe7e6afbc608e69"
+        },
+        {
+          "path": "resourcepacks/Simple Grass Flowers v2.0.0.zip",
+          "sha1": "afb56cfc90e663526352f7bd75a3c733178fca45",
+          "size": 208597,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/afb56cfc90e663526352f7bd75a3c733178fca45"
+        },
+        {
+          "path": "resourcepacks/Stay True 1.21.5.zip",
+          "sha1": "b752181fa17cf99a67bc46a2c1569be621021493",
+          "size": 2252799,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b752181fa17cf99a67bc46a2c1569be621021493"
+        },
+        {
+          "path": "resourcepacks/§6Immersive§8_§6Interfaces§8.zip",
+          "sha1": "176aa5cf21d2c6b6a24d11cf0e74aed4c4ca9621",
+          "size": 1197001,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/176aa5cf21d2c6b6a24d11cf0e74aed4c4ca9621"
+        },
+        {
+          "path": "resourcepacks/§eExtended_Illumina_1.21x.zip",
+          "sha1": "b085c0fc09aa3af013c9e28010bf684fbea62655",
+          "size": 5071,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b085c0fc09aa3af013c9e28010bf684fbea62655"
+        },
+        {
+          "path": "shaderpacks/BSL_v10.1.1.zip",
+          "sha1": "4f4e8121e2fdee8d5708aaee138ddcf127e86df0",
+          "size": 1119197,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/4f4e8121e2fdee8d5708aaee138ddcf127e86df0"
+        },
+        {
+          "path": "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
+          "sha1": "2ee08300e1d6f039e63eae8484dddf57b3aaaf67",
+          "size": 553400,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2ee08300e1d6f039e63eae8484dddf57b3aaaf67"
+        },
+        {
+          "path": "shaderpacks/iterationT 3.2.0.zip",
+          "sha1": "ddadd31e7c59cedadc1e704e5f83c872cb3d5e37",
+          "size": 42846966,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/ddadd31e7c59cedadc1e704e5f83c872cb3d5e37"
+        },
+        {
+          "path": "shaderpacks/Kappa_v5.3.zip",
+          "sha1": "620388c59df919fc29f8762268942f4871c2fb55",
+          "size": 3872527,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/620388c59df919fc29f8762268942f4871c2fb55"
+        },
+        {
+          "path": "config/appleskin-client.toml",
+          "sha1": "8f167f14bbd81163f78c5e3459dcffdb50225117",
+          "size": 1376,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/8f167f14bbd81163f78c5e3459dcffdb50225117"
+        },
+        {
+          "path": "config/bettercombat/client.json5",
+          "sha1": "5e958e33435651d6809f5b3cb2c46c61b37827cc",
+          "size": 721,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/5e958e33435651d6809f5b3cb2c46c61b37827cc"
+        },
+        {
+          "path": "config/bettercombat/fallback_compatibility.json",
+          "sha1": "8efde77c49f6cd7c4035ee3f554c25f63532335a",
+          "size": 2995,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/8efde77c49f6cd7c4035ee3f554c25f63532335a"
+        },
+        {
+          "path": "config/bettercombat/server.json5",
+          "sha1": "223d0a4b7c3ff0792b40696d8f4fcf29d4de1c3d",
+          "size": 6207,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/223d0a4b7c3ff0792b40696d8f4fcf29d4de1c3d"
+        },
+        {
+          "path": "config/bettercombat/weapon_trails.json",
+          "sha1": "da308da6817dae4e2ab7c9202bd9068ba5dd3f7d",
+          "size": 7127,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/da308da6817dae4e2ab7c9202bd9068ba5dd3f7d"
+        },
+        {
+          "path": "config/betterfortresses/neoforge-1_21/itemframes.json",
+          "sha1": "e65322e63261b1c7dedb0f9e691fc51b185ec6d5",
+          "size": 1161,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/e65322e63261b1c7dedb0f9e691fc51b185ec6d5"
+        },
+        {
+          "path": "config/betterfortresses/neoforge-1_21/README.txt",
+          "sha1": "abaeda3856b09c5dd80e1b5ada9aaf171d038995",
+          "size": 1339,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/abaeda3856b09c5dd80e1b5ada9aaf171d038995"
+        },
+        {
+          "path": "config/betterfortresses/README.txt",
+          "sha1": "898e0d430a5395007d520caa4dd1d47c611de703",
+          "size": 867,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/898e0d430a5395007d520caa4dd1d47c611de703"
+        },
+        {
+          "path": "config/betterfortresses-neoforge-1_21.toml",
+          "sha1": "629ed14a081edd760decfc14373fc5d40cbcf532",
+          "size": 425,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/629ed14a081edd760decfc14373fc5d40cbcf532"
+        },
+        {
+          "path": "config/betterstrongholds/neoforge-1_21/armorstands.json",
+          "sha1": "4bc83e7d3d4c091bd97ac8715a16d1f7a74ebd06",
+          "size": 1391,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/4bc83e7d3d4c091bd97ac8715a16d1f7a74ebd06"
+        },
+        {
+          "path": "config/betterstrongholds/neoforge-1_21/itemframes.json",
+          "sha1": "5afe4b642341ddbf15c941a51ddd34c5f16436b8",
+          "size": 920,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/5afe4b642341ddbf15c941a51ddd34c5f16436b8"
+        },
+        {
+          "path": "config/betterstrongholds/neoforge-1_21/ores.json",
+          "sha1": "f8950f24eb959ee4de0575b190202d5ef1630af9",
+          "size": 346,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/f8950f24eb959ee4de0575b190202d5ef1630af9"
+        },
+        {
+          "path": "config/betterstrongholds/neoforge-1_21/rareblocks.json",
+          "sha1": "aacce217e633c6463384ce8aadd30a532a85f325",
+          "size": 238,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/aacce217e633c6463384ce8aadd30a532a85f325"
+        },
+        {
+          "path": "config/betterstrongholds/neoforge-1_21/README.txt",
+          "sha1": "ee9c20aeefab7187288a4289d129a3155efa5823",
+          "size": 2830,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/ee9c20aeefab7187288a4289d129a3155efa5823"
+        },
+        {
+          "path": "config/betterstrongholds/README.txt",
+          "sha1": "00ed29b440752cac0617bd7d2c44c971097e2c8c",
+          "size": 719,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/00ed29b440752cac0617bd7d2c44c971097e2c8c"
+        },
+        {
+          "path": "config/betterstrongholds-neoforge-1_21.toml",
+          "sha1": "9a344f54f80a0f1437e542e4b7b39deef89c3aed",
+          "size": 621,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/9a344f54f80a0f1437e542e4b7b39deef89c3aed"
+        },
+        {
+          "path": "config/bettervillage_1.properties",
+          "sha1": "6f3b93dd5888bcacd02ec79ce1f6f78eceddf067",
+          "size": 270,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6f3b93dd5888bcacd02ec79ce1f6f78eceddf067"
+        },
+        {
+          "path": "config/betterzoom-client.toml",
+          "sha1": "92c7903327ee61771212f5cfa46ee98f4d302acb",
+          "size": 1282,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/92c7903327ee61771212f5cfa46ee98f4d302acb"
+        },
+        {
+          "path": "config/carryon-client.toml",
+          "sha1": "1fd6cec44704488ae7d2ab31425b6eb88ef3ce9c",
+          "size": 588,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/1fd6cec44704488ae7d2ab31425b6eb88ef3ce9c"
+        },
+        {
+          "path": "config/carryon-common.toml",
+          "sha1": "f13ee696f128d74f1c82d90d8987ff8ef9389b70",
+          "size": 9110,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/f13ee696f128d74f1c82d90d8987ff8ef9389b70"
+        },
+        {
+          "path": "config/cataclysm-client.toml",
+          "sha1": "31bb7d3e8acf3c15c5aef997d006c56e2b83c4f3",
+          "size": 539,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/31bb7d3e8acf3c15c5aef997d006c56e2b83c4f3"
+        },
+        {
+          "path": "config/cataclysm-common.toml",
+          "sha1": "b0dc6b40a859434df049bbfe9ff5138da4a49483",
+          "size": 30664,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b0dc6b40a859434df049bbfe9ff5138da4a49483"
+        },
+        {
+          "path": "config/corpse-server.toml",
+          "sha1": "741422c678902068793cb2a82f1a4e51943a5764",
+          "size": 1092,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/741422c678902068793cb2a82f1a4e51943a5764"
+        },
+        {
+          "path": "config/cristellib/auto_config_settings.json5",
+          "sha1": "86e80a015389a07a3953d6bc3a00cb7f26e5b5e1",
+          "size": 895,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/86e80a015389a07a3953d6bc3a00cb7f26e5b5e1"
+        },
+        {
+          "path": "config/cristellib/betterfortresses/structure_placement_config.json5",
+          "sha1": "7cc783bfda640a628bd3431cf885b59f96348f27",
+          "size": 123,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/7cc783bfda640a628bd3431cf885b59f96348f27"
+        },
+        {
+          "path": "config/cristellib/betterfortresses/structure_toggle_config.json5",
+          "sha1": "0cc51decee529f5ea60a409bbba56e7ca8b57842",
+          "size": 85,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/0cc51decee529f5ea60a409bbba56e7ca8b57842"
+        },
+        {
+          "path": "config/cristellib/betterstrongholds/structure_placement_config.json5",
+          "sha1": "1b2cb16ec527805f0cd58bc0a498f39aaf53dfaf",
+          "size": 125,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/1b2cb16ec527805f0cd58bc0a498f39aaf53dfaf"
+        },
+        {
+          "path": "config/cristellib/betterstrongholds/structure_toggle_config.json5",
+          "sha1": "9f4a6f0d5b25bd69cefc60c685a46027a1d5c1e2",
+          "size": 89,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/9f4a6f0d5b25bd69cefc60c685a46027a1d5c1e2"
+        },
+        {
+          "path": "config/cristellib/built_in_packs.json5",
+          "sha1": "9cbd8a2b1443834b050d62e30412ea95d2672a56",
+          "size": 373,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/9cbd8a2b1443834b050d62e30412ea95d2672a56"
+        },
+        {
+          "path": "config/cristellib/cataclysm/structure_placement_config.json5",
+          "sha1": "e9c4558d1796c3052dba8c23f2b7ef682f904c18",
+          "size": 953,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/e9c4558d1796c3052dba8c23f2b7ef682f904c18"
+        },
+        {
+          "path": "config/cristellib/cataclysm/structure_toggle_config.json5",
+          "sha1": "5475297789d5fb659cd42f859e2ab5f1d4f8509e",
+          "size": 707,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/5475297789d5fb659cd42f859e2ab5f1d4f8509e"
+        },
+        {
+          "path": "config/cristellib/deeperdarker/structure_placement_config.json5",
+          "sha1": "443fded5c805b910c49c481e1865c389466f8bf1",
+          "size": 128,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/443fded5c805b910c49c481e1865c389466f8bf1"
+        },
+        {
+          "path": "config/cristellib/deeperdarker/structure_toggle_config.json5",
+          "sha1": "6e186ccd710a9d5f51e00b119308ab069da8ba39",
+          "size": 98,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6e186ccd710a9d5f51e00b119308ab069da8ba39"
+        },
+        {
+          "path": "config/cristellib/dungeons_arise/structure_placement_config.json5",
+          "sha1": "0278dd761ca7fc52ee99270b313358040c8573c8",
+          "size": 214,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/0278dd761ca7fc52ee99270b313358040c8573c8"
+        },
+        {
+          "path": "config/cristellib/dungeons_arise/structure_toggle_config.json5",
+          "sha1": "9c71a18a17bc905d64a2c45d78b44ae30ce8e6e6",
+          "size": 1060,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/9c71a18a17bc905d64a2c45d78b44ae30ce8e6e6"
+        },
+        {
+          "path": "config/cristellib/mr_dungeons_andtaverns/structure_placement_config.json5",
+          "sha1": "35e19273bebc267f1145cfc5b2d316a29bcc5b93",
+          "size": 2703,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/35e19273bebc267f1145cfc5b2d316a29bcc5b93"
+        },
+        {
+          "path": "config/cristellib/mr_dungeons_andtaverns/structure_toggle_config.json5",
+          "sha1": "84f63f25fe7b63fe04d0904f01182ef6c734d859",
+          "size": 3679,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/84f63f25fe7b63fe04d0904f01182ef6c734d859"
+        },
+        {
+          "path": "config/cristellib/nullscape/structure_placement_config.json5",
+          "sha1": "ec672c7c24b56fbcc1757e7b46341925abf5698f",
+          "size": 289,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/ec672c7c24b56fbcc1757e7b46341925abf5698f"
+        },
+        {
+          "path": "config/cristellib/nullscape/structure_toggle_config.json5",
+          "sha1": "30c9143b60cb7aee147e7a4aa70b5a1d8620e31d",
+          "size": 189,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/30c9143b60cb7aee147e7a4aa70b5a1d8620e31d"
+        },
+        {
+          "path": "config/cristellib/twilightforest/structure_placement_config.json5",
+          "sha1": "a21d948580c7744a1312187ad3f0dd843b0866c2",
+          "size": 314,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/a21d948580c7744a1312187ad3f0dd843b0866c2"
+        },
+        {
+          "path": "config/cristellib/twilightforest/structure_toggle_config.json5",
+          "sha1": "2c137e0c294b77350aa8865372c8fbf50f82041f",
+          "size": 944,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2c137e0c294b77350aa8865372c8fbf50f82041f"
+        },
+        {
+          "path": "config/curios-client.toml",
+          "sha1": "7e66e02fbf04b28e7de60c4e675d2b5168be5ec6",
+          "size": 766,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/7e66e02fbf04b28e7de60c4e675d2b5168be5ec6"
+        },
+        {
+          "path": "config/curios-common.toml",
+          "sha1": "2805359d4ad1ce08ef52cc73f84a96dafdc41024",
+          "size": 159,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2805359d4ad1ce08ef52cc73f84a96dafdc41024"
+        },
+        {
+          "path": "config/curios-server.toml",
+          "sha1": "8ccde45d5edd3767324231935fe07ac2318a0eb5",
+          "size": 483,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/8ccde45d5edd3767324231935fe07ac2318a0eb5"
+        },
+        {
+          "path": "config/deeperdarker-common.toml",
+          "sha1": "24341283bedcbfda0a3c079cf23044d0b2db9c71",
+          "size": 854,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/24341283bedcbfda0a3c079cf23044d0b2db9c71"
+        },
+        {
+          "path": "config/fallingtree.json",
+          "sha1": "6d0e8b8fb432a816617cc6f838a287b276789433",
+          "size": 1313,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6d0e8b8fb432a816617cc6f838a287b276789433"
+        },
+        {
+          "path": "config/fdlib/fdlib_client.json",
+          "sha1": "2d74767f5cb57f7f79dae04e3e1dd4d206d861da",
+          "size": 136,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2d74767f5cb57f7f79dae04e3e1dd4d206d861da"
+        },
+        {
+          "path": "config/fdlib/test.json",
+          "sha1": "1f01c0f2173afc8e66a3c265b4cf97e264abc1da",
+          "size": 215,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/1f01c0f2173afc8e66a3c265b4cf97e264abc1da"
+        },
+        {
+          "path": "config/fml.toml",
+          "sha1": "65d48e5dee041247b47d639c5ca7299e9dbbeb96",
+          "size": 1550,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/65d48e5dee041247b47d639c5ca7299e9dbbeb96"
+        },
+        {
+          "path": "config/fzzy_config/keybinds.toml",
+          "sha1": "f808afa706d9a4934612b20e1efd513416a0e8f1",
+          "size": 6403,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/f808afa706d9a4934612b20e1efd513416a0e8f1"
+        },
+        {
+          "path": "config/guardvillagers-client.toml",
+          "sha1": "a74efdc8645fd589da6fe1b28ba94e4fad43da0a",
+          "size": 340,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/a74efdc8645fd589da6fe1b28ba94e4fad43da0a"
+        },
+        {
+          "path": "config/guardvillagers-common.toml",
+          "sha1": "179a57dc70770f742cecba95e1705557dc80cd86",
+          "size": 6189,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/179a57dc70770f742cecba95e1705557dc80cd86"
+        },
+        {
+          "path": "config/guardvillagers-startup.toml",
+          "sha1": "5d2a583ff1d647c6eb1dbcb1586c7e3ad5ecdfb6",
+          "size": 195,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/5d2a583ff1d647c6eb1dbcb1586c7e3ad5ecdfb6"
+        },
+        {
+          "path": "config/iris-excluded.json",
+          "sha1": "20bd3420b5c911402ac289c154b56ac1dd8f84ba",
+          "size": 31,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/20bd3420b5c911402ac289c154b56ac1dd8f84ba"
+        },
+        {
+          "path": "config/iris.properties",
+          "sha1": "cc27a1bd3bd5d7aaad5c0bdbccc22c57906f3518",
+          "size": 312,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/cc27a1bd3bd5d7aaad5c0bdbccc22c57906f3518"
+        },
+        {
+          "path": "config/jei/blacklist.json",
+          "sha1": "a8a4458dce77bc89e82e71719ad2cc14b2739d39",
+          "size": 19,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/a8a4458dce77bc89e82e71719ad2cc14b2739d39"
+        },
+        {
+          "path": "config/jei/client/default/jei-client.ini",
+          "sha1": "1b7814e565c4927d84d2f5cfa723c9dcb6b84180",
+          "size": 16752,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/1b7814e565c4927d84d2f5cfa723c9dcb6b84180"
+        },
+        {
+          "path": "config/jei/client/default/jei-colors.ini",
+          "sha1": "1044f6310eb4e62253c9d9e1ba3a9313599b310e",
+          "size": 1655,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/1044f6310eb4e62253c9d9e1ba3a9313599b310e"
+        },
+        {
+          "path": "config/jei/client/default/jei-debug.ini",
+          "sha1": "d02dc7d7cf1c8ced3ef1f9253a0bbadb6580d56d",
+          "size": 1174,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/d02dc7d7cf1c8ced3ef1f9253a0bbadb6580d56d"
+        },
+        {
+          "path": "config/jei/client/default/jei-mod-id-format.ini",
+          "sha1": "6106cc9c99906ea9da4854730887379ec1e8b256",
+          "size": 863,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/6106cc9c99906ea9da4854730887379ec1e8b256"
+        },
+        {
+          "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
+          "sha1": "bfb418b9406778426fc5225bca4b61e2fb92ef67",
+          "size": 260,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/bfb418b9406778426fc5225bca4b61e2fb92ef67"
+        },
+        {
+          "path": "config/jei/client/ingredient-list-type-sort-order.ini",
+          "sha1": "0d83b40ddd89cbd6e25b5e4f83521afb40e241a8",
+          "size": 191,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/0d83b40ddd89cbd6e25b5e4f83521afb40e241a8"
+        },
+        {
+          "path": "config/jei/client/jei-client.ini",
+          "sha1": "1b7814e565c4927d84d2f5cfa723c9dcb6b84180",
+          "size": 16752,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/1b7814e565c4927d84d2f5cfa723c9dcb6b84180"
+        },
+        {
+          "path": "config/jei/client/recipe-category-sort-order.ini",
+          "sha1": "330eb14e5a27fd3ac595cac204f54a49d1bc6c95",
+          "size": 620,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/330eb14e5a27fd3ac595cac204f54a49d1bc6c95"
+        },
+        {
+          "path": "config/jei/server/world/default/jei-server.ini",
+          "sha1": "3b29a935a0381ea91b117a759180362b33f2a732",
+          "size": 760,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/3b29a935a0381ea91b117a759180362b33f2a732"
+        },
+        {
+          "path": "config/jei/world/local/โลกใหม่/lookupHistory.json",
+          "sha1": "fe7229fdb277840a836989cfb374b5590faa7b53",
+          "size": 341,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/fe7229fdb277840a836989cfb374b5590faa7b53"
+        },
+        {
+          "path": "config/jei/world/server/เซิร์ฟเวอร์ Minecraft (26_196_152_252)/bookmarks.json",
+          "sha1": "a2b37eea7b3da1db5fad683c2df83813c732935a",
+          "size": 614,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/a2b37eea7b3da1db5fad683c2df83813c732935a"
+        },
+        {
+          "path": "config/jei/world/server/เซิร์ฟเวอร์ Minecraft (26_196_152_252)/lookupHistory.json",
+          "sha1": "c9828dc82fd973819bdf4bc58436d8eb4b109c62",
+          "size": 1163,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/c9828dc82fd973819bdf4bc58436d8eb4b109c62"
+        },
+        {
+          "path": "config/journeymap-server.toml",
+          "sha1": "f5f7eb44a304882b631b813927707948a3588728",
+          "size": 550,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/f5f7eb44a304882b631b813927707948a3588728"
+        },
+        {
+          "path": "config/knavesneeds/deeper_darker_config.toml",
+          "sha1": "30d97dc60b7bd0fa859103369f59841f8a180bfd",
+          "size": 996,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/30d97dc60b7bd0fa859103369f59841f8a180bfd"
+        },
+        {
+          "path": "config/knavesneeds/knaves_config.toml",
+          "sha1": "b85fb47c03052cdf50d5436266954dd6dc6c13ed",
+          "size": 690,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b85fb47c03052cdf50d5436266954dd6dc6c13ed"
+        },
+        {
+          "path": "config/knavesneeds/twilight_forest_config.toml",
+          "sha1": "84883b77637c5be6b932fc9ecd5497ec68996c7e",
+          "size": 1913,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/84883b77637c5be6b932fc9ecd5497ec68996c7e"
+        },
+        {
+          "path": "config/libraryferret_1.properties",
+          "sha1": "7dace50d34e34179c22151934013689c3d270b20",
+          "size": 193,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/7dace50d34e34179c22151934013689c3d270b20"
+        },
+        {
+          "path": "config/mezz_config/client/default/settings.ini",
+          "sha1": "37c6c10d605efbf78119e1fea0d6d0b06ba9ca77",
+          "size": 1452,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/37c6c10d605efbf78119e1fea0d6d0b06ba9ca77"
+        },
+        {
+          "path": "config/neoforge-client.toml",
+          "sha1": "b51515abb0c65a891514baffb4c78d2357ecd1ed",
+          "size": 578,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b51515abb0c65a891514baffb4c78d2357ecd1ed"
+        },
+        {
+          "path": "config/neoforge-common.toml",
+          "sha1": "2e904b9a9bf2c03e8dfe4d0b3b43dee9965c062b",
+          "size": 1050,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2e904b9a9bf2c03e8dfe4d0b3b43dee9965c062b"
+        },
+        {
+          "path": "config/neoforge-server.toml",
+          "sha1": "536538f1f29efb49318318113530bd4fd74c235b",
+          "size": 1177,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/536538f1f29efb49318318113530bd4fd74c235b"
+        },
+        {
+          "path": "config/puffish_skills/config.json",
+          "sha1": "b5b81101a7458b4c026d44b7dbd505105c5c5514",
+          "size": 42,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b5b81101a7458b4c026d44b7dbd505105c5c5514"
+        },
+        {
+          "path": "config/simplyswords/compatibility.toml",
+          "sha1": "5040fe9878b3effc19a554a449de633aed6dd0cf",
+          "size": 11974,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/5040fe9878b3effc19a554a449de633aed6dd0cf"
+        },
+        {
+          "path": "config/simplyswords/gem_powers.toml",
+          "sha1": "568e9210b1e95509d9d8ff2639f6d64502a7a02a",
+          "size": 3651,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/568e9210b1e95509d9d8ff2639f6d64502a7a02a"
+        },
+        {
+          "path": "config/simplyswords/general.toml",
+          "sha1": "d2fefc65cc6bb3fde306b657918babb64b2cf538",
+          "size": 873,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/d2fefc65cc6bb3fde306b657918babb64b2cf538"
+        },
+        {
+          "path": "config/simplyswords/gui.toml",
+          "sha1": "69205c83e7995a6e5c7f0722da1b85d9e808430e",
+          "size": 106,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/69205c83e7995a6e5c7f0722da1b85d9e808430e"
+        },
+        {
+          "path": "config/simplyswords/loot.toml",
+          "sha1": "06ae15d9c0b56021316983f0ef82f5c64a4e152b",
+          "size": 1314,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/06ae15d9c0b56021316983f0ef82f5c64a4e152b"
+        },
+        {
+          "path": "config/simplyswords/status_effects.toml",
+          "sha1": "acad40876fdc4838448733d488bd5fe6031984cc",
+          "size": 85,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/acad40876fdc4838448733d488bd5fe6031984cc"
+        },
+        {
+          "path": "config/simplyswords/unique_effects.toml",
+          "sha1": "030cae3545d24e055d07be74cd2dfe7cf1cd53ba",
+          "size": 16438,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/030cae3545d24e055d07be74cd2dfe7cf1cd53ba"
+        },
+        {
+          "path": "config/simplyswords/weapon_attributes.toml",
+          "sha1": "3d94fbb2bac9951c2e067f38d5cdd81c42f7eab2",
+          "size": 4777,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/3d94fbb2bac9951c2e067f38d5cdd81c42f7eab2"
+        },
+        {
+          "path": "config/simplytooltips/config.toml",
+          "sha1": "e97dfa580a08b305de4470027b69d28ba2862584",
+          "size": 342,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/e97dfa580a08b305de4470027b69d28ba2862584"
+        },
+        {
+          "path": "config/sodium-fingerprint.json",
+          "sha1": "531abea85bc7017e1c967f94a3cd5c2df921a750",
+          "size": 427,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/531abea85bc7017e1c967f94a3cd5c2df921a750"
+        },
+        {
+          "path": "config/sodium-mixins.properties",
+          "sha1": "5455463ee999b945c1cff8ae90f2b705e19fb86c",
+          "size": 258,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/5455463ee999b945c1cff8ae90f2b705e19fb86c"
+        },
+        {
+          "path": "config/sodium-options.json",
+          "sha1": "361cd83440c9e8d5b46f677550adfcf074b8bc72",
+          "size": 682,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/361cd83440c9e8d5b46f677550adfcf074b8bc72"
+        },
+        {
+          "path": "config/sophisticatedbackpacks-common.toml",
+          "sha1": "faab0a1537b5377ed89cf1a2f6e660116a15891b",
+          "size": 118,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/faab0a1537b5377ed89cf1a2f6e660116a15891b"
+        },
+        {
+          "path": "config/sophisticatedbackpacks-server.toml",
+          "sha1": "8e64b0930b00db612ecbb06cd8406ba363f7feb7",
+          "size": 24153,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/8e64b0930b00db612ecbb06cd8406ba363f7feb7"
+        },
+        {
+          "path": "config/sophisticatedcore-client.toml",
+          "sha1": "27700782a7cd2e3f4a681fcee62fbe28057bca12",
+          "size": 478,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/27700782a7cd2e3f4a681fcee62fbe28057bca12"
+        },
+        {
+          "path": "config/sophisticatedcore-common.toml",
+          "sha1": "e0d456fbb6f0b757371b3e7ae1f13dbf612c8cc9",
+          "size": 3984,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/e0d456fbb6f0b757371b3e7ae1f13dbf612c8cc9"
+        },
+        {
+          "path": "config/towns_and_towers/structure_enable_or_disable_new.json5",
+          "sha1": "87b5e4771c01d665fc630a781cef62cf0dfbaf82",
+          "size": 3051,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/87b5e4771c01d665fc630a781cef62cf0dfbaf82"
+        },
+        {
+          "path": "config/towns_and_towers/structure_rarity_new.json5",
+          "sha1": "93d5d84090cccdd1fb787ca27e5b100737158b4d",
+          "size": 1520,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/93d5d84090cccdd1fb787ca27e5b100737158b4d"
+        },
+        {
+          "path": "config/travelersbackpack-client.toml",
+          "sha1": "60603143b82382491674cb5c644af72c15948cf7",
+          "size": 1820,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/60603143b82382491674cb5c644af72c15948cf7"
+        },
+        {
+          "path": "config/travelersbackpack-common.toml",
+          "sha1": "19e127ca987b2f6fd6c4f15f0e660c5ee4d0b963",
+          "size": 197,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/19e127ca987b2f6fd6c4f15f0e660c5ee4d0b963"
+        },
+        {
+          "path": "config/travelersbackpack-server.toml",
+          "sha1": "25093f1af7da09269a027ea1505ee3ebb1eeeae5",
+          "size": 11997,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/25093f1af7da09269a027ea1505ee3ebb1eeeae5"
+        },
+        {
+          "path": "config/twilightforest-client.toml",
+          "sha1": "fbd69b4f231380a26ad658e5647a58c7018c9e95",
+          "size": 2996,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/fbd69b4f231380a26ad658e5647a58c7018c9e95"
+        },
+        {
+          "path": "config/twilightforest-common.toml",
+          "sha1": "5fe61b124ca912f0e0a991499a11938a8da9bd44",
+          "size": 9324,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/5fe61b124ca912f0e0a991499a11938a8da9bd44"
+        },
+        {
+          "path": "config/vanilla_structures/placement_structure_config.json5",
+          "sha1": "2df88f9da1e31229125fc81ee57ce897f54f0cb5",
+          "size": 1938,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/2df88f9da1e31229125fc81ee57ce897f54f0cb5"
+        },
+        {
+          "path": "config/vanilla_structures/toggle_structure_config.json5",
+          "sha1": "1d3a26ff34edb8091a9deee5124bd4d349d97731",
+          "size": 1584,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/1d3a26ff34edb8091a9deee5124bd4d349d97731"
+        },
+        {
+          "path": "config/waystones-common.toml",
+          "sha1": "e29101a0e5c7ab3523d550f2526cbd768ea6763f",
+          "size": 6646,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/e29101a0e5c7ab3523d550f2526cbd768ea6763f"
+        },
+        {
+          "path": "config/weaponmaster_ydm-common.toml",
+          "sha1": "60d91ce4a841adec05a702c51dc76461cebba587",
+          "size": 9417,
+          "mode": "managed",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/60d91ce4a841adec05a702c51dc76461cebba587"
+        },
+        {
+          "path": "options.txt",
+          "sha1": "21da82c541ab154775078eab523c1d0712e1a513",
+          "size": 9704,
+          "mode": "once",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/21da82c541ab154775078eab523c1d0712e1a513"
+        }
+      ]
+    }
+  ]
+}
