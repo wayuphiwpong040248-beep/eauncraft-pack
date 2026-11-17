@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-17T19:55:46.157Z",
+  "updatedAt": "2026-11-17T20:04:08.442Z",
   "branding": {
     "title": "E'AunCraft",
     "background": {
@@ -17,8 +17,8 @@
     }
   ],
   "launcher": {
-    "latestVersion": "1.1.1",
-    "sha1": "1f8a625e78f121f3d24dc682ae74287e0fd36b08",
+    "latestVersion": "1.1.2",
+    "sha1": "ff7393c6be4d289c52a73174ec206784dd5da210",
     "downloadUrl": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/launcher/EAunCraft-Setup.exe"
   },
   "servers": [
