@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-17T19:47:05.502Z",
+  "updatedAt": "2026-11-17T19:55:46.157Z",
   "branding": {
     "title": "E'AunCraft",
     "background": {
@@ -10,20 +10,15 @@
   },
   "news": [
     {
-      "title": "วิธีใช้งาน E'AunCraft Launcher",
-      "date": "18/11/2569",
-      "pinned": true,
-      "body": "ก่อนเริ่ม: ติดตั้ง TLauncher + ล็อกอินบัญชีไว้ และติดตั้ง Radmin VPN เข้าเน็ตเวิร์กเดียวกับคนเปิดเซิร์ฟ\n\n1) กด “ติดตั้ง” (ปุ่มใหญ่ขวาล่าง) รอหมูวิ่งจนสุดหลอด — เกมเวอร์ชัน EaunCraft พร้อมมอดทั้งหมดจะลงที่ %APPDATA%\\.minecraft\\versions\\EaunCraft\n2) เปิด TLauncher เลือกเวอร์ชัน “EaunCraft” แล้วกดเล่น 1 ครั้ง (ให้ TLauncher โหลดไฟล์เกม + Java ให้ครบ) แล้วปิดเกม\n3) กด “ตั้ง Shortcut” (บังคับ) จะมีหน้าต่างดำขึ้นมา ทำตามขั้นตอนในนั้น (IP ใส่ให้อัตโนมัติ) เสร็จแล้วกด Enter ปิด — บนเดสก์ท็อปจะมี “EaunCraft (Shortcut)”\n4) กด “เริ่มเกม” — เกมจะเปิดและเข้าเซิร์ฟให้เอง (มอดเยอะ อาจใช้ 1–2 นาที)\n\nครั้งต่อไป: เปิด Radmin VPN แล้วกด “เริ่มเกม” ได้เลย\nถ้ามีอัปเดต ปุ่มจะเปลี่ยนเป็น “อัปเดต” กดแล้วรอจนเสร็จ\nปุ่ม “ตั้ง Shortcut” กดซ้ำได้ทุกเมื่อ ถ้าทางลัดหายหรือเสีย"
-    },
-    {
       "title": "ยินดีต้อนรับสู่ E'AunCraft!",
       "date": "18/11/2569",
+      "pinned": true,
       "body": "เปิด Radmin VPN ก่อนเข้าเกมทุกครั้ง\nถ้าเข้าเซิร์ฟไม่ได้ ให้เช็กว่าแอดมินเปิดเซิร์ฟอยู่ (ไฟเขียวที่การ์ดเซิร์ฟ)"
     }
   ],
   "launcher": {
-    "latestVersion": "1.1.0",
-    "sha1": "8a6aa8f98e7bb64455d513f0b8690c6100c044c6",
+    "latestVersion": "1.1.1",
+    "sha1": "1f8a625e78f121f3d24dc682ae74287e0fd36b08",
     "downloadUrl": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/launcher/EAunCraft-Setup.exe"
   },
   "servers": [
