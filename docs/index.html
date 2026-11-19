@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E'AunCraft คู่มือ</title>
+<meta name="description" content="คู่มือเข้าเซิร์ฟ E'AunCraft: ติดตั้งรันเชอร์ เข้าเซิร์ฟ และมอดทั้งหมดในเซิร์ฟ">
+<meta property="og:title" content="E'AunCraft — คู่มือผู้เล่น">
+<meta property="og:description" content="ลงรันเชอร์ เข้าเซิร์ฟ และรู้จักมอดทั้งหมดใน 5 นาที">
+<meta name="theme-color" content="#3ddc84">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0f14; --bg2:#111821; --card:#151e29; --card2:#1b2633; --line:#263445;
+  --text:#e8eef5; --muted:#93a4b8; --green:#3ddc84; --green2:#1fa463; --gold:#ffcc4d;
+  --purple:#b388ff; --red:#ff6b6b; --cyan:#4dd0e1;
+  --radius:16px; --pix:"Press Start 2P",monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:Kanit,system-ui,sans-serif;font-weight:300;line-height:1.7;overflow-x:hidden}
+a{color:var(--green)}
+::selection{background:var(--green);color:#000}
+
+/* ---------- background ---------- */
+#sky{position:fixed;inset:0;z-index:-2;background:
+  radial-gradient(1200px 600px at 80% -10%,rgba(61,220,132,.16),transparent 60%),
+  radial-gradient(900px 500px at -10% 30%,rgba(179,136,255,.12),transparent 60%),
+  linear-gradient(#0b0f14,#0a0d12)}
+#particles{position:fixed;inset:0;z-index:-1;pointer-events:none}
+
+/* ---------- nav ---------- */
+nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rgba(11,15,20,.72);border-bottom:1px solid var(--line)}
+nav .in{max-width:1100px;margin:auto;display:flex;align-items:center;gap:18px;padding:12px 16px}
+.logo{font-family:var(--pix);font-size:13px;color:var(--green);text-decoration:none;white-space:nowrap;text-shadow:0 0 12px rgba(61,220,132,.6)}
+nav ul{display:flex;gap:4px;list-style:none;margin-left:auto;overflow-x:auto;scrollbar-width:none}
+nav ul::-webkit-scrollbar{display:none}
+nav a.l{display:block;padding:6px 12px;border-radius:999px;color:var(--muted);text-decoration:none;font-size:14px;white-space:nowrap;transition:.2s}
+nav a.l:hover,nav a.l.on{color:#000;background:var(--green)}
+
+/* ---------- hero ---------- */
+header.hero{min-height:92vh;display:grid;place-items:center;text-align:center;padding:60px 16px 40px;position:relative}
+.cube{width:110px;height:110px;margin:0 auto 34px;perspective:600px}
+.cube .c{width:100%;height:100%;position:relative;transform-style:preserve-3d;animation:spin 9s linear infinite}
+.cube .f{position:absolute;inset:0;border:3px solid rgba(0,0,0,.35);image-rendering:pixelated}
+.f.t{transform:rotateX(90deg) translateZ(55px);background:
+  linear-gradient(90deg,#5fbf3a 25%,#4ea62f 25% 50%,#6ccf45 50% 75%,#58b336 75%) 0 0/27.5px 27.5px}
+.f.b{transform:rotateX(-90deg) translateZ(55px);background:#6b4a2b}
+.f.s{background:linear-gradient(#5fbf3a 0 22%,#7a5533 22% 100%)}
+.f.s1{transform:translateZ(55px)}.f.s2{transform:rotateY(90deg) translateZ(55px)}
+.f.s3{transform:rotateY(180deg) translateZ(55px)}.f.s4{transform:rotateY(-90deg) translateZ(55px)}
+@keyframes spin{from{transform:rotateX(-22deg) rotateY(0)}to{transform:rotateX(-22deg) rotateY(360deg)}}
+.cube{animation:bob 3.2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-14px)}}
+
+.hero h1{font-family:var(--pix);font-size:clamp(26px,6vw,58px);line-height:1.25;letter-spacing:2px;
+  background:linear-gradient(90deg,var(--green),var(--cyan),var(--purple),var(--green));background-size:300% 100%;
+  -webkit-background-clip:text;background-clip:text;color:transparent;animation:flow 6s linear infinite;
+  filter:drop-shadow(0 4px 0 rgba(0,0,0,.6))}
+@keyframes flow{to{background-position:300% 0}}
+.hero .sub{margin:18px auto 0;max-width:620px;color:var(--muted);font-size:clamp(16px,2.4vw,20px)}
+.typed{color:var(--text);font-weight:500;border-right:2px solid var(--green);padding-right:3px;animation:caret .8s step-end infinite}
+@keyframes caret{50%{border-color:transparent}}
+.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:26px 0 30px}
+.chip{font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted)}
+.chip b{color:var(--text);font-weight:500}
+.cta{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+.btn{position:relative;display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:12px;text-decoration:none;font-weight:500;
+  color:#04140b;background:var(--green);box-shadow:0 6px 0 var(--green2),0 10px 30px rgba(61,220,132,.35);transition:transform .15s,box-shadow .15s;overflow:hidden}
+.btn:hover{transform:translateY(-3px);box-shadow:0 9px 0 var(--green2),0 16px 40px rgba(61,220,132,.45)}
+.btn:active{transform:translateY(4px);box-shadow:0 2px 0 var(--green2)}
+.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.45) 50%,transparent 70%);transform:translateX(-120%);animation:shine 3.5s ease-in-out infinite}
+@keyframes shine{60%,100%{transform:translateX(120%)}}
+.btn.alt{color:var(--text);background:var(--card2);box-shadow:0 6px 0 #0d141c;border:1px solid var(--line)}
+.btn.alt::after{display:none}
+.btn.gold{background:var(--gold);box-shadow:0 6px 0 #c99a1f,0 10px 30px rgba(255,204,77,.3)}
+.scroll{position:absolute;bottom:22px;left:50%;translate:-50% 0;color:var(--muted);font-size:13px;animation:bob 2s ease-in-out infinite}
+
+/* ---------- sections ---------- */
+section{max-width:1100px;margin:auto;padding:90px 16px 20px}
+.kicker{font-family:var(--pix);font-size:11px;color:var(--green);letter-spacing:2px}
+h2{font-size:clamp(26px,4.2vw,40px);font-weight:700;margin:10px 0 8px;line-height:1.25}
+.lead{color:var(--muted);max-width:680px;margin-bottom:34px}
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{position:relative;background:linear-gradient(180deg,var(--card),var(--bg2));border:1px solid var(--line);border-radius:var(--radius);padding:24px;transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);border-color:rgba(61,220,132,.5);box-shadow:0 18px 40px rgba(0,0,0,.35)}
+.card h3{font-size:21px;font-weight:600;margin-bottom:6px;display:flex;align-items:center;gap:10px}
+.card p,.card li{color:var(--muted)}
+.card ul{padding-left:20px;margin-top:8px}
+.tag{font-size:12px;padding:2px 10px;border-radius:999px;font-weight:500}
+.tag.g{background:rgba(61,220,132,.15);color:var(--green)}
+.tag.y{background:rgba(255,204,77,.15);color:var(--gold)}
+.tag.p{background:rgba(179,136,255,.15);color:var(--purple)}
+.tag.r{background:rgba(255,107,107,.15);color:var(--red)}
+.card .btn{margin-top:16px}
+.pick{border-width:2px}
+.pick.tl{border-color:rgba(61,220,132,.45)}
+.pick.pr{border-color:rgba(255,204,77,.45)}
+.pick .ico{font-size:40px;line-height:1;margin-bottom:10px;display:block}
+
+/* ---------- steps ---------- */
+.steps{position:relative;counter-reset:s;display:grid;gap:18px;padding-left:4px}
+.steps::before{content:"";position:absolute;left:27px;top:10px;bottom:10px;width:3px;background:linear-gradient(var(--green),var(--purple));border-radius:3px;transform-origin:top;transform:scaleY(var(--prog,0));transition:transform .2s linear}
+.step{position:relative;display:grid;grid-template-columns:56px 1fr;gap:18px;align-items:start}
+.step .n{counter-increment:s;width:50px;height:50px;border-radius:12px;display:grid;place-items:center;font-family:var(--pix);font-size:16px;color:#04140b;background:var(--green);box-shadow:0 5px 0 var(--green2);z-index:1}
+.step .n::before{content:counter(s)}
+.step .card{padding:18px 20px}
+.step h3{font-size:19px}
+kbd{font-family:var(--pix);font-size:11px;padding:4px 8px;border-radius:6px;background:#0d141c;border:1px solid var(--line);border-bottom-width:3px;color:var(--text);white-space:nowrap}
+code{font-family:ui-monospace,Consolas,monospace;background:#0d141c;border:1px solid var(--line);padding:1px 7px;border-radius:6px;color:var(--cyan);font-size:.92em}
+.note{margin-top:10px;padding:10px 14px;border-left:3px solid var(--gold);background:rgba(255,204,77,.06);border-radius:0 10px 10px 0;color:var(--muted);font-size:15px}
+
+/* ---------- ip box ---------- */
+.ipbox{display:flex;flex-wrap:wrap;align-items:center;gap:14px;padding:22px;border-radius:var(--radius);background:linear-gradient(135deg,rgba(61,220,132,.14),rgba(77,208,225,.08));border:1px solid rgba(61,220,132,.4)}
+.ipbox .ip{font-family:var(--pix);font-size:clamp(14px,3vw,22px);color:var(--green);word-break:break-all}
+.copy{margin-left:auto;cursor:pointer;border:0;font:inherit;font-weight:500;padding:10px 18px;border-radius:10px;background:var(--green);color:#04140b;transition:.2s}
+.copy:hover{filter:brightness(1.1)}
+.copy.ok{background:var(--gold)}
+.pulse{width:12px;height:12px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(61,220,132,.7);animation:pulse 1.8s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 14px rgba(61,220,132,0)}100%{box-shadow:0 0 0 0 rgba(61,220,132,0)}}
+
+/* ---------- mods ---------- */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.filters button{cursor:pointer;font:inherit;font-size:14px;padding:7px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted);transition:.2s}
+.filters button:hover{color:var(--text)}
+.filters button.on{background:var(--green);color:#04140b;border-color:var(--green);font-weight:500}
+.search{width:100%;max-width:360px;margin-bottom:14px;padding:11px 16px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);font:inherit}
+.search:focus{outline:2px solid var(--green);outline-offset:2px}
+.mods{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.mod{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;transition:transform .25s,border-color .25s,opacity .3s}
+.mod:hover{transform:translateY(-3px) rotate(-.3deg);border-color:rgba(61,220,132,.5)}
+.mod .h{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.mod .e{font-size:26px;width:44px;height:44px;display:grid;place-items:center;border-radius:10px;background:var(--card2);flex:none}
+.mod b{font-weight:600;font-size:16px;line-height:1.3}
+.mod p{color:var(--muted);font-size:14.5px}
+.mod .how{margin-top:8px;font-size:14px;color:var(--text)}
+.mod.hide{display:none}
+.libs{margin-top:22px;color:var(--muted);font-size:14px}
+
+/* ---------- keys ---------- */
+.keys{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.key{display:flex;align-items:center;gap:14px;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.key kbd{min-width:52px;text-align:center}
+
+/* ---------- faq ---------- */
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden}
+summary{cursor:pointer;list-style:none;padding:16px 20px;font-weight:500;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--pix);color:var(--green);transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg)}
+details .a{padding:0 20px 18px;color:var(--muted)}
+details[open] .a{animation:drop .35s ease}
+@keyframes drop{from{opacity:0;transform:translateY(-8px)}}
+
+footer{text-align:center;color:var(--muted);font-size:14px;padding:70px 16px 50px}
+footer .pix{font-family:var(--pix);font-size:11px;color:var(--green);display:block;margin-bottom:10px}
+
+@media (max-width:640px){
+  nav .in{gap:10px}.logo{font-size:10px}
+  section{padding-top:70px}
+  .step{grid-template-columns:44px 1fr;gap:12px}.step .n{width:40px;height:40px;font-size:13px}.steps::before{left:20px}
+  .copy{margin-left:0;width:100%}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<div id="sky"></div>
+<canvas id="particles"></canvas>
+
+<nav><div class="in">
+  <a class="logo" href="#top">E'AUNCRAFT</a>
+  <ul>
+    <li><a class="l" href="#pick">เลือกรันเชอร์</a></li>
+    <li><a class="l" href="#install">ติดตั้ง</a></li>
+    <li><a class="l" href="#join">เข้าเซิร์ฟ</a></li>
+    <li><a class="l" href="#mods">มอด</a></li>
+    <li><a class="l" href="#keys">ปุ่มลัด</a></li>
+    <li><a class="l" href="#faq">แก้ปัญหา</a></li>
+  </ul>
+</div></nav>
+
+<header class="hero" id="top">
+  <div>
+    <div class="cube"><div class="c">
+      <div class="f t"></div><div class="f b"></div>
+      <div class="f s s1"></div><div class="f s s2"></div><div class="f s s3"></div><div class="f s s4"></div>
+    </div></div>
+    <h1>E'AUNCRAFT</h1>
+    <p class="sub">คู่มือผู้เล่นฉบับเต็ม — <span class="typed" id="typed"></span></p>
+    <div class="chips">
+      <span class="chip">Minecraft <b>1.21.1</b></span>
+      <span class="chip">NeoForge <b>21.1.266</b></span>
+      <span class="chip">มอด <b>30+</b></span>
+      <span class="chip">ความยาก <b>Hard</b></span>
+      <span class="chip">PvP <b>เปิด</b></span>
+    </div>
+    <div class="cta">
+      <a class="btn" href="#pick">⬇ เริ่มติดตั้ง</a>
+      <a class="btn alt" href="#mods">🧩 ดูมอดทั้งหมด</a>
+    </div>
+  </div>
+  <div class="scroll">เลื่อนลง ↓</div>
+</header>
+
+<!-- ============ PICK ============ -->
+<section id="pick">
+  <div class="reveal">
+    <span class="kicker">STEP 0</span>
+    <h2>เลือกรันเชอร์ให้ตรงกับเกมของคุณ</h2>
+    <p class="lead">เซิร์ฟเรามีรันเชอร์ 2 ตัว ใช้มอดชุดเดียวกัน เข้าเซิร์ฟเดียวกัน ต่างกันแค่วิธีล็อกอินเกม เลือกตัวเดียวพอ</p>
+  </div>
+  <div class="grid g2">
+    <div class="card pick tl reveal">
+      <span class="ico">🟩</span>
+      <h3>E'AunCraft <span class="tag g">TLauncher</span></h3>
+      <p>สำหรับคนที่เล่นผ่าน <b>TLauncher</b> (ไม่มีไอดีแท้)</p>
+      <ul><li>ต้องมี TLauncher ที่ล็อกอินชื่อไว้แล้ว</li><li>รันเชอร์โหลดเกม + มอด + Java ให้เอง</li></ul>
+      <a class="btn" href="https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/launcher/EAunCraft-Setup.exe">⬇ โหลด E'AunCraft</a>
+    </div>
+    <div class="card pick pr reveal">
+      <span class="ico">👑</span>
+      <h3>E'AunCraft Premium <span class="tag y">ของแท้</span></h3>
+      <p>สำหรับคนที่มี <b>Minecraft ของแท้</b> (บัญชี Microsoft)</p>
+      <ul><li>ต้องมี Minecraft Launcher ทางการที่ล็อกอินแล้ว</li><li>กดเริ่มเกม → เด้งไป Minecraft Launcher ให้กด Play</li></ul>
+      <a class="btn gold" href="https://github.com/wayuphiwpong040248-beep/eauncraft-premium-pack/releases/download/launcher/EAunCraftPremium-Setup.exe">⬇ โหลด Premium</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSTALL ============ -->
+<section id="install">
+  <div class="reveal">
+    <span class="kicker">STEP 1</span>
+    <h2>ติดตั้งทีละขั้น</h2>
+    <p class="lead">ทำครั้งเดียว ครั้งต่อไปแค่เปิดรันเชอร์แล้วกดเริ่มเกม มอดอัปเดตเองอัตโนมัติ</p>
+  </div>
+  <div class="steps" id="steps">
+    <div class="step reveal"><div class="n"></div><div class="card">
+      <h3>🛰️ ลง Radmin VPN</h3>
+      <p>โหลดจาก <a href="https://www.radmin-vpn.com/" target="_blank" rel="noopener">radmin-vpn.com</a> แล้วกด <b>เข้าร่วมเครือข่าย</b> (Join network)</p>
+      <div class="note">🔑 ชื่อเครือข่ายและรหัสผ่าน ดูได้ในห้อง <b>#🌐ip-เซิร์ฟ</b> ใน Discord</div>
+    </div></div>
+    <div class="step reveal"><div class="n"></div><div class="card">
+      <h3>⬇️ โหลดและติดตั้งรันเชอร์</h3>
+      <p>โหลดตัวที่ตรงกับเกมของคุณจาก <a href="#pick">ด้านบน</a> แล้วดับเบิลคลิกไฟล์ <code>-Setup.exe</code></p>
+      <div class="note">ถ้า Windows ขึ้นจอฟ้า “Windows protected your PC” ให้กด <b>More info</b> → <b>Run anyway</b></div>
+    </div></div>
+    <div class="step reveal"><div class="n"></div><div class="card">
+      <h3>📦 กดปุ่ม “ติดตั้ง”</h3>
+      <p>รันเชอร์จะโหลดตัวเกม NeoForge มอด และ Java ให้ทั้งหมด ครั้งแรกประมาณ 1 GB รอจนแถบเต็ม</p>
+    </div></div>
+    <div class="step reveal"><div class="n"></div><div class="card">
+      <h3>🔗 (เฉพาะ TLauncher) กด “ตั้ง Shortcut”</h3>
+      <p>หน้าต่างดำจะเด้งขึ้นมา ทำตามที่บอกแล้วกด <kbd>Enter</kbd> ปิด — ตัว Premium ไม่ต้องทำข้อนี้</p>
+    </div></div>
+    <div class="step reveal"><div class="n"></div><div class="card">
+      <h3>▶️ กด “เริ่มเกม”</h3>
+      <p><b>TLauncher:</b> เกมเปิดเองและรันเชอร์จะซ่อนตัว ปิดเกมแล้วรันเชอร์กลับมาเอง<br>
+         <b>Premium:</b> Minecraft Launcher จะเปิดโปรไฟล์ “E'AunCraft Premium” ไว้ให้ → กด <b>Play</b></p>
+      <div class="note">Premium: ถ้า Minecraft Launcher เปิดค้างอยู่ ให้ปิดก่อนกดเริ่มเกม</div>
+    </div></div>
+  </div>
+</section>
+
+<!-- ============ JOIN ============ -->
+<section id="join">
+  <div class="reveal">
+    <span class="kicker">STEP 2</span>
+    <h2>เข้าเซิร์ฟ</h2>
+    <p class="lead">รันเชอร์ใส่เซิร์ฟไว้ในรายการ Multiplayer ให้แล้ว แค่เปิด Radmin VPN แล้วกดเข้า ถ้าไม่มีก็ใส่ IP ด้านล่างเอง</p>
+  </div>
+  <div class="ipbox reveal">
+    <span class="pulse"></span>
+    <div><div style="color:var(--muted);font-size:14px">Server Address</div><div class="ip" id="ip">26.196.152.252:25565</div></div>
+    <button class="copy" id="copy" type="button">📋 คัดลอก IP</button>
+  </div>
+  <div class="grid g3" style="margin-top:16px">
+    <div class="card reveal"><h3>✅ ก่อนเข้าทุกครั้ง</h3><p>เปิด <b>Radmin VPN</b> และเช็กว่าแอดมินเปิดเซิร์ฟอยู่ (ไฟเขียวที่การ์ดเซิร์ฟในรันเชอร์)</p></div>
+    <div class="card reveal"><h3>🔄 มีอัปเดต?</h3><p>ถ้าปุ่มขึ้นว่า <b>อัปเดต</b> ให้กดก่อน มอดต้องตรงกับเซิร์ฟถึงจะเข้าได้</p></div>
+    <div class="card reveal"><h3>🟠 แถบสีส้ม</h3><p>แปลว่ามีรันเชอร์เวอร์ชันใหม่ กดที่แถบเพื่อโหลดตัวใหม่</p></div>
+  </div>
+</section>
+
+<!-- ============ MODS ============ -->
+<section id="mods">
+  <div class="reveal">
+    <span class="kicker">WHAT'S INSIDE</span>
+    <h2>มอดในเซิร์ฟ & วิธีใช้</h2>
+    <p class="lead">ทุกอย่างลงให้อัตโนมัติจากรันเชอร์ ไม่ต้องลงเอง กดหมวดหรือพิมพ์ค้นหาได้</p>
+  </div>
+  <input class="search reveal" id="q" type="search" placeholder="🔎 ค้นหามอด เช่น กระเป๋า, บอส, แผนที่" aria-label="ค้นหามอด">
+  <div class="filters reveal" id="filters">
+    <button class="on" data-f="all">ทั้งหมด</button>
+    <button data-f="adv">⚔️ ผจญภัย & บอส</button>
+    <button data-f="world">🏰 โลก & สิ่งก่อสร้าง</button>
+    <button data-f="combat">🗡️ การต่อสู้</button>
+    <button data-f="util">🎒 ของใช้สะดวก</button>
+    <button data-f="ui">🖥️ หน้าจอ & กราฟิก</button>
+  </div>
+  <div class="mods" id="modlist"></div>
+  <p class="libs reveal">🔧 มอดเสริมที่ทำงานเบื้องหลัง (ไม่ต้องสนใจ): Architectury, Balm, Cloth Config, Cristel Lib, FDLib, Fzzy Config, Kotlin for Forge, Library Ferret, Lionfish API, Mezz Config, Player Animation Lib, Pufferfish's Attributes, Sophisticated Core, YUNG's API</p>
+</section>
+
+<!-- ============ KEYS ============ -->
+<section id="keys">
+  <div class="reveal">
+    <span class="kicker">CONTROLS</span>
+    <h2>ปุ่มลัดที่ใช้บ่อย</h2>
+    <p class="lead">ถ้าปุ่มไหนไม่ทำงาน หรือชนกัน ให้ไปที่ <b>Options → Controls → Key Binds</b> แล้วค้นชื่อมอด</p>
+  </div>
+  <div class="keys">
+    <div class="key reveal"><kbd>J</kbd><span>เปิดแผนที่ใหญ่ (JourneyMap)</span></div>
+    <div class="key reveal"><kbd>R</kbd><span>ดูสูตรคราฟของที่ชี้ (JEI)</span></div>
+    <div class="key reveal"><kbd>U</kbd><span>ดูว่าของนี้เอาไปทำอะไรได้ (JEI)</span></div>
+    <div class="key reveal"><kbd>?</kbd><span>สกิลทรี — ค้นคำว่า <b>Skills</b> ใน Controls แล้วตั้งปุ่ม</span></div>
+    <div class="key reveal"><kbd>B</kbd><span>เปิดกระเป๋าเป้ที่สะพายอยู่</span></div>
+    <div class="key reveal"><kbd>SHIFT</kbd>+<kbd>คลิกขวา</kbd><span>ยกหีบ/สัตว์ มือเปล่า (Carry On)</span></div>
+    <div class="key reveal"><kbd>O</kbd><span>เลือก Shader (Iris)</span></div>
+    <div class="key reveal"><kbd>F5</kbd><span>มุมกล้อง — เห็นอาวุธสะพายหลัง</span></div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq">
+  <div class="reveal">
+    <span class="kicker">HELP</span>
+    <h2>แก้ปัญหาเบื้องต้น</h2>
+  </div>
+  <div class="reveal">
+    <details><summary>เข้าเซิร์ฟไม่ได้ / Connection timed out</summary><div class="a">เช็ก 3 อย่าง: ① Radmin VPN เปิดและอยู่ในเครือข่ายของเซิร์ฟ ② แอดมินเปิดเซิร์ฟอยู่ (ไฟเขียวในรันเชอร์) ③ กดอัปเดตในรันเชอร์แล้ว ถ้ายังไม่ได้ แจ้งในห้อง <b>#🛠️แจ้งปัญหา</b></div></details>
+    <details><summary>ขึ้นว่ามอดไม่ตรง (Mod mismatch)</summary><div class="a">ปิดเกม เปิดรันเชอร์ใหม่ ถ้ามีปุ่ม <b>อัปเดต</b> ให้กด แล้วค่อยเข้าเกม</div></details>
+    <details><summary>Windows / แอนตี้ไวรัส บล็อกไฟล์ติดตั้ง</summary><div class="a">กด <b>More info → Run anyway</b> ถ้าแอนตี้ไวรัสลบไฟล์ ให้เพิ่มโฟลเดอร์รันเชอร์เป็นข้อยกเว้น ไฟล์โหลดจาก GitHub ของเซิร์ฟโดยตรง</div></details>
+    <details><summary>เกมแลค / FPS ต่ำ</summary><div class="a">ปิด Shader (กด <kbd>O</kbd> แล้วกด Shaders: OFF), ลด Render Distance เหลือ 8–10 และปิดโปรแกรมอื่น เซิร์ฟมี Sodium ช่วยเพิ่ม FPS อยู่แล้ว (Premium ปรับ RAM ได้ในโปรไฟล์ของ Minecraft Launcher)</div></details>
+    <details><summary>ตายแล้วของหาย?</summary><div class="a">ไม่หาย! ของทั้งหมดอยู่ใน <b>ศพ</b> ตรงจุดที่ตาย กลับไปคลิกขวาที่ศพเพื่อเก็บของ ดูจุดตายได้จากแผนที่ JourneyMap</div></details>
+    <details><summary>Premium กดเริ่มเกมแล้วไม่มีอะไรเกิดขึ้น</summary><div class="a">ปิด Minecraft Launcher ที่เปิดค้างไว้ก่อน แล้วกดเริ่มเกมใหม่ ต้องล็อกอินบัญชีแท้ใน Minecraft Launcher อย่างน้อย 1 ครั้ง</div></details>
+  </div>
+</section>
+
+<footer>
+  <span class="pix">SEE YOU IN-GAME ⛏</span>
+  มีคำถาม? ถามได้ในห้อง Discord ของเซิร์ฟ<br>
+  Cr.Wayu Phiwpong
+</footer>
+
+<script>
+/* ---------- mod data ---------- */
+const MODS = [
+ ["adv","🌲","Twilight Forest","มิติใหม่ ป่าสนธยา มีบอสหลายตัว ดันเจี้ยน และของหายาก","วิธีเข้า: ขุดบ่อน้ำ 2×2 ล้อมด้วยดอกไม้/หญ้า แล้วโยน 💎 เพชรลงไป"],
+ ["adv","🐉","L_Ender's Cataclysm","บอสสุดโหดหลายตัวพร้อมอาวุธและชุดเกราะระดับตำนาน","บอสอยู่ในสิ่งก่อสร้างพิเศษ ไปเป็นทีมดีกว่า"],
+ ["adv","🎬","Cinematic Cataclysm","ฉากเปิดตัวบอส Cataclysm แบบภาพยนตร์ เท่ขึ้นอีกขั้น","ทำงานเองตอนเจอบอส"],
+ ["adv","🌑","Deeper and Darker","มิติ Otherside ใต้ Ancient City พร้อมม็อบและของใหม่","หาพอร์ทัลใน Ancient City (ระวัง Warden!)"],
+ ["adv","🌌","Nullscape","เปลี่ยนโฉมมิติ End ให้ลึกลับและน่าสำรวจกว่าเดิม","ไปที่ End ตามปกติ"],
+ ["world","🏯","When Dungeons Arise","ดันเจี้ยนขนาดใหญ่กระจายทั่วโลก มีม็อบและของรางวัล","เจอได้ตามทุ่ง ทะเล ภูเขา"],
+ ["world","🍺","Dungeons & Taverns","โรงเตี๊ยม ดันเจี้ยน และสิ่งก่อสร้างใหม่หลายแบบ","ในโรงเตี๊ยมมีชาวบ้านค้าขายแผนที่"],
+ ["world","🗼","Towns and Towers","หมู่บ้านและหอคอยรูปแบบใหม่หลายสไตล์","สำรวจเจอทั่วไป"],
+ ["world","🏘️","Better Village","หมู่บ้านสวยขึ้น มีรายละเอียดมากขึ้น","อัตโนมัติ"],
+ ["world","🛡️","Guard Villagers","ทหารยามคอยป้องกันหมู่บ้านจากม็อบ","คลิกขวาที่ยามเพื่อเปลี่ยนอาวุธ/ชุดให้เขา"],
+ ["world","🔥","YUNG's Better Nether Fortresses","ป้อมเนเธอร์ใหม่ ใหญ่ขึ้นและอันตรายขึ้น","อยู่ใน Nether"],
+ ["world","👁️","YUNG's Better Strongholds","Stronghold ใหม่ ซับซ้อนและมีของมากขึ้น","ตามหาด้วย Eye of Ender เหมือนเดิม"],
+ ["combat","⚔️","Better Combat","ฟันแบบคอมโบ ท่าโจมตีต่างกันตามอาวุธ ถือ 2 มือได้","กดค้างคลิกซ้ายเพื่อโจมตีต่อเนื่อง"],
+ ["combat","🗡️","Simply Swords","อาวุธใหม่หลายสิบแบบ บางเล่มมีสกิลพิเศษ","ดูสูตรใน JEI หรือหาในหีบดันเจี้ยน"],
+ ["combat","🪓","Knaves Needs","อาวุธยุคกลางเพิ่มเติม เช่น หอก ขวาน ค้อน","ดูสูตรใน JEI"],
+ ["combat","🎽","Weapon Master","โชว์อาวุธบนหลัง/เอวตัวละคร","กด F5 ดูตัวเองได้"],
+ ["combat","🌳","Pufferfish's Skills","อัปสกิลทรี ได้ค่าพลังเพิ่มเมื่อเลเวลอัป","ตั้งปุ่มเปิดหน้าสกิลใน Controls (ค้นคำว่า Skills)"],
+ ["util","🎒","Sophisticated Backpacks","กระเป๋าเป้อัปเกรดได้ ใส่อัปเกรดเก็บของอัตโนมัติ ฟีดอาหาร ฯลฯ","คลิกขวาเปิด หรือสะพายแล้วกด B"],
+ ["util","🧳","Traveler's Backpack","กระเป๋าสะพายหลังพร้อมถังน้ำ/ลาวาในตัว","สะพายแล้วเปิดด้วยปุ่มที่ตั้งไว้ใน Controls"],
+ ["util","🪨","Waystones","หินวาร์ป จดจุดแล้ววาร์ปไปมาได้","คลิกขวาที่ Waystone เพื่อจดจุด แล้วเลือกจุดที่จะวาร์ป"],
+ ["util","🪦","Corpse","ตายแล้วของไม่กระจาย อยู่ในศพตรงจุดที่ตาย","กลับไปคลิกขวาที่ศพเพื่อเก็บของ"],
+ ["util","🌲","Falling Tree","ตัดโคนต้นทีเดียว ต้นไม้ล้มทั้งต้น","ใช้ขวานตัดที่ท่อนล่างสุด"],
+ ["util","📦","Carry On","ยกหีบ (พร้อมของข้างใน) หรือสัตว์ไปวางที่อื่นได้","มือเปล่า กด SHIFT ค้าง + คลิกขวา"],
+ ["util","📚","Stackable","ไอเทมซ้อนในช่องได้มากขึ้น","อัตโนมัติ"],
+ ["util","💍","Curios","ช่องเครื่องประดับเพิ่ม (แหวน สร้อย เข็มขัด ฯลฯ)","เปิดกระเป๋า แล้วกดไอคอนข้างตัวละคร"],
+ ["ui","🗺️","JourneyMap","มินิแมพมุมจอ + แผนที่ใหญ่ ปักหมุดจุดสำคัญได้","กด J เปิดแผนที่ใหญ่"],
+ ["ui","📖","JEI","ดูสูตรคราฟของทุกอย่างในเกม","ชี้ของแล้วกด R (สูตร) หรือ U (ใช้ทำอะไร)"],
+ ["ui","🍎","AppleSkin","แสดงค่าความอิ่มและอาหารที่จะได้","ดูที่แถบอาหาร"],
+ ["ui","💬","Simply Tooltips","หน้าต่างรายละเอียดไอเทมสวยขึ้น","ชี้ไอเทมในกระเป๋า"],
+ ["ui","🔭","Better Zoom","ซูมมองไกล","ตั้งปุ่มได้ใน Controls"],
+ ["ui","✨","Iris Shaders","ใส่ Shader แสงเงาสวย","กด O เปิดหน้าเลือก Shader หรือไปที่ Options → Video → Shader Packs"],
+ ["ui","🚀","Sodium","เพิ่ม FPS ให้เกมลื่นขึ้นมาก","อัตโนมัติ"],
+ ["ui","🧑‍🎨","CustomSkinLoader","ให้สกินแสดงผลถูกต้องในเซิร์ฟ","อัตโนมัติ"],
+];
+const list = document.getElementById('modlist');
+list.innerHTML = MODS.map(([c,e,n,d,h]) => `<div class="mod reveal" data-c="${c}" data-s="${(n+d+h).toLowerCase()}"><div class="h"><span class="e">${e}</span><b>${n}</b></div><p>${d}</p><div class="how">👉 ${h}</div></div>`).join('');
+
+let cat = 'all';
+const applyFilter = () => {
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  list.querySelectorAll('.mod').forEach(m => {
+    const ok = (cat === 'all' || m.dataset.c === cat) && (!q || m.dataset.s.includes(q));
+    m.classList.toggle('hide', !ok);
+    if (ok) m.classList.add('in');
+  });
+};
+document.getElementById('filters').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  document.querySelectorAll('#filters button').forEach(x => x.classList.toggle('on', x === b));
+  cat = b.dataset.f; applyFilter();
+});
+document.getElementById('q').addEventListener('input', applyFilter);
+
+/* ---------- reveal on scroll ---------- */
+const io = new IntersectionObserver(es => es.forEach((e, i) => {
+  if (e.isIntersecting) { setTimeout(() => e.target.classList.add('in'), (i % 6) * 70); io.unobserve(e.target); }
+}), { threshold: .12 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+/* ---------- steps progress line ---------- */
+const steps = document.getElementById('steps');
+const prog = () => {
+  const r = steps.getBoundingClientRect(), vh = innerHeight;
+  const p = Math.min(1, Math.max(0, (vh * .7 - r.top) / r.height));
+  steps.style.setProperty('--prog', p);
+};
+addEventListener('scroll', prog, { passive: true }); prog();
+
+/* ---------- nav highlight ---------- */
+const links = [...document.querySelectorAll('nav a.l')];
+const secIO = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) links.forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + e.target.id));
+}), { rootMargin: '-45% 0px -50% 0px' });
+document.querySelectorAll('section').forEach(s => secIO.observe(s));
+
+/* ---------- typing ---------- */
+const words = ['ลงรันเชอร์ใน 5 นาที', 'มอดอัปเดตอัตโนมัติ', 'บอส ดันเจี้ยน มิติใหม่', 'เล่นด้วยกันผ่าน Radmin VPN'];
+const tEl = document.getElementById('typed');
+let wi = 0, ci = 0, del = false;
+(function type() {
+  const w = words[wi];
+  tEl.textContent = w.slice(0, ci);
+  if (!del && ci === w.length) { del = true; return setTimeout(type, 1600); }
+  if (del && ci === 0) { del = false; wi = (wi + 1) % words.length; }
+  ci += del ? -1 : 1;
+  setTimeout(type, del ? 35 : 75);
+})();
+
+/* ---------- copy ip ---------- */
+const cp = document.getElementById('copy');
+cp.addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(document.getElementById('ip').textContent); cp.textContent = '✅ คัดลอกแล้ว'; cp.classList.add('ok'); }
+  catch { cp.textContent = 'กดค้างที่ IP เพื่อคัดลอก'; }
+  setTimeout(() => { cp.textContent = '📋 คัดลอก IP'; cp.classList.remove('ok'); }, 2000);
+});
+
+/* ---------- pixel particles ---------- */
+const cv = document.getElementById('particles'), ctx = cv.getContext('2d');
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+let P = [];
+const cols = ['#3ddc84', '#4dd0e1', '#b388ff', '#ffcc4d'];
+const size = () => { cv.width = innerWidth * devicePixelRatio; cv.height = innerHeight * devicePixelRatio; };
+size(); addEventListener('resize', size);
+for (let i = 0; i < 42; i++) P.push({ x: Math.random(), y: Math.random(), s: 2 + Math.random() * 4, v: .0003 + Math.random() * .0008, c: cols[i % 4], a: .2 + Math.random() * .5, w: Math.random() * 6.28 });
+(function draw(t) {
+  ctx.clearRect(0, 0, cv.width, cv.height);
+  const d = devicePixelRatio;
+  for (const p of P) {
+    if (!reduce) { p.y -= p.v; p.w += .01; if (p.y < -.02) { p.y = 1.02; p.x = Math.random(); } }
+    ctx.globalAlpha = p.a * (.6 + .4 * Math.sin(p.w));
+    ctx.fillStyle = p.c;
+    const s = p.s * d;
+    ctx.fillRect(Math.round((p.x * innerWidth + Math.sin(p.w) * 12) * d), Math.round(p.y * innerHeight * d), s, s);
+  }
+  if (!reduce) requestAnimationFrame(draw);
+})();
+</script>
+</body>
+</html>
