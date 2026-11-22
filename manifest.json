@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "brandId": "eauncraft",
-  "updatedAt": "2026-11-20T20:14:30.051Z",
+  "updatedAt": "2026-11-22T05:41:59.798Z",
   "branding": {
     "title": "E'AunCraft",
     "background": {
@@ -34,7 +34,7 @@
         "type": "neoforge",
         "version": "21.1.266"
       },
-      "packVersion": "2026.11.21-3",
+      "packVersion": "2026.11.22-1",
       "enforceDirs": [
         "mods"
       ],
@@ -790,6 +790,13 @@
           "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/a817f2263e93aad5bdbe65eeafd2f27489b47ccf"
         },
         {
+          "path": "mods/harvest_scythes-neoforge-2.5.6.jar",
+          "sha1": "e7e441c73cb23e5d22fe0883336f3a18c65606b5",
+          "size": 274846,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/e7e441c73cb23e5d22fe0883336f3a18c65606b5"
+        },
+        {
           "path": "mods/iris-neoforge-1.8.12+mc1.21.1.jar",
           "sha1": "a3e6355915c7d3b2bc392724795113e51d289378",
           "size": 2438548,
@@ -858,6 +865,13 @@
           "size": 355748,
           "mode": "enforce",
           "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/ae8e1cbd5de6cf6f450bb44cd69cd284dad690dd"
+        },
+        {
+          "path": "mods/ore-vein-miner-3.2.0.jar",
+          "sha1": "fc3b05733463a61ef42245a12b200fb5ceac8690",
+          "size": 270204,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/fc3b05733463a61ef42245a12b200fb5ceac8690"
         },
         {
           "path": "mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
