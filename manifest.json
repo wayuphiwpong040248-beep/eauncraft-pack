@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "brandId": "eauncraft",
-  "updatedAt": "2026-11-22T05:41:59.798Z",
+  "updatedAt": "2026-11-23T08:05:37.079Z",
   "branding": {
     "title": "E'AunCraft",
     "background": {
@@ -34,7 +34,7 @@
         "type": "neoforge",
         "version": "21.1.266"
       },
-      "packVersion": "2026.11.22-1",
+      "packVersion": "2026.11.23-1",
       "enforceDirs": [
         "mods"
       ],
@@ -832,6 +832,13 @@
           "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/d10d062caf1aad9aec82d7852f2fee1781735c1f"
         },
         {
+          "path": "mods/kubejs-neoforge-2101.7.2-build.381.jar",
+          "sha1": "b282ba250cdd247f319c016df02ff9e600caadb1",
+          "size": 2295092,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/b282ba250cdd247f319c016df02ff9e600caadb1"
+        },
+        {
           "path": "mods/libraryferret-neoforge-1.21.1-4.0.0.jar",
           "sha1": "9f750661168a599bdd7b2928e6588768d6105bfe",
           "size": 139464,
@@ -844,6 +851,13 @@
           "size": 91596,
           "mode": "enforce",
           "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/353ca00ed118eb67cf11085abbbd699884722326"
+        },
+        {
+          "path": "mods/lootjs-neoforge-1.21.1-3.7.0.jar",
+          "sha1": "54ffddd1763ae4af84e9bbcb22e4081a1e7f3556",
+          "size": 247689,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/54ffddd1763ae4af84e9bbcb22e4081a1e7f3556"
         },
         {
           "path": "mods/L_Ender_s Cataclysm 1.21.1-3.33.jar",
@@ -893,6 +907,13 @@
           "size": 652840,
           "mode": "enforce",
           "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/e7439fa56036bfacf228269b8b89f10cbbba13fd"
+        },
+        {
+          "path": "mods/rhino-2101.2.7-build.85.jar",
+          "sha1": "3c8d34c7efe9e42fc90506acbf9fc842d36f9a42",
+          "size": 882075,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/3c8d34c7efe9e42fc90506acbf9fc842d36f9a42"
         },
         {
           "path": "mods/simplyswords-neoforge-1.70.2-1.21.1.jar",
