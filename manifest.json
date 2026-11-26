@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "brandId": "eauncraft",
-  "updatedAt": "2026-11-23T08:05:37.079Z",
+  "updatedAt": "2026-11-26T16:33:31.930Z",
   "branding": {
     "title": "E'AunCraft",
     "background": {
@@ -34,7 +34,7 @@
         "type": "neoforge",
         "version": "21.1.266"
       },
-      "packVersion": "2026.11.23-1",
+      "packVersion": "2026.11.26-1",
       "enforceDirs": [
         "mods"
       ],
@@ -914,6 +914,13 @@
           "size": 882075,
           "mode": "enforce",
           "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/3c8d34c7efe9e42fc90506acbf9fc842d36f9a42"
+        },
+        {
+          "path": "mods/simplyswords-dualstandards-neoforge-1.0.4.jar",
+          "sha1": "7fba8192863fcd683f1afc1ee292db67dd792c21",
+          "size": 10453,
+          "mode": "enforce",
+          "url": "https://github.com/wayuphiwpong040248-beep/eauncraft-pack/releases/download/files/7fba8192863fcd683f1afc1ee292db67dd792c21"
         },
         {
           "path": "mods/simplyswords-neoforge-1.70.2-1.21.1.jar",
